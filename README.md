@@ -100,6 +100,43 @@ luggage-dashboard/
 ```
 ---
 
+## Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        DATA PIPELINE                            │
+│                                                                 │
+│  ┌─────────────┐    ┌──────────────┐    ┌───────────────────┐  │
+│  │   Scraper    │    │  Processor   │    │   LLM Agent       │  │
+│  │             │    │              │    │                   │  │
+│  │ Playwright  │───▶│  VADER NLP   │───▶│  Gemini 2.0 Flash │  │
+│  │ Amazon.in   │    │  Pandas      │    │  5 conclusions    │  │
+│  │             │    │              │    │                   │  │
+│  └──────┬──────┘    └──────┬───────┘    └────────┬──────────┘  │
+│         │                  │                      │             │
+│         ▼                  ▼                      ▼             │
+│  products.csv        insights.json          insights.json      │
+│  reviews.csv        (+ sentiment,          (+ agent_insights)  │
+│                      aspects, trust)                           │
+└─────────────────────────────────────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                     REACT DASHBOARD                             │
+│                                                                 │
+│  ┌───────────┐ ┌────────────┐ ┌───────────┐ ┌──────────────┐  │
+│  │ Overview  │ │  Brand     │ │ Product   │ │   Agent      │  │
+│  │           │ │ Comparison │ │ Drilldown │ │  Insights    │  │
+│  │ KPIs      │ │ Radar      │ │ Filters   │ │  Anomalies   │  │
+│  │ Charts    │ │ Sort/Filter│ │ Details   │ │  Trust       │  │
+│  └───────────┘ └────────────┘ └───────────┘ └──────────────┘  │
+│                                                                 │
+│  Deployed on Vercel · Static JSON bundled at build time         │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## Setup and installation
 
 ### Prerequisites

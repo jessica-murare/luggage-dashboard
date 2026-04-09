@@ -211,6 +211,12 @@ def main():
         trust        = trust_signals(b_reviews)
         vfm          = value_for_money(sentiment, avg_price)
 
+        # Update individual product review counts based on actual reviews found
+        asin_counts = Counter(r.get("asin") for r in b_reviews)
+        for p in b_products:
+            if "asin" in p:
+                p["review_count"] = asin_counts[p["asin"]]
+
         insights[brand] = {
             "brand": brand,
             "product_count": len(b_products),
