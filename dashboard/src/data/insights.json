@@ -1,0 +1,1284 @@
+{
+  "Safari": {
+    "brand": "Safari",
+    "product_count": 15,
+    "review_count": 528,
+    "avg_price": 3057.6,
+    "avg_mrp": 13041.7,
+    "avg_discount_pct": 70.4,
+    "avg_rating": 4.1,
+    "sentiment_score": 57.0,
+    "themes": {
+      "top_positives": [
+        "good",
+        "quality",
+        "nice",
+        "sturdy",
+        "smooth"
+      ],
+      "top_negatives": [
+        "broken",
+        "damaged",
+        "poor",
+        "worst",
+        "disappointed"
+      ]
+    },
+    "aspect_sentiment": {
+      "wheels": 85.8,
+      "handle": 31.8,
+      "zipper": 50.0,
+      "material": 67.7,
+      "size": 58.4,
+      "weight": 78.4
+    },
+    "trust_signals": {
+      "verified_pct": 95.5,
+      "rating_skew": 85.6,
+      "repetition_score": 89.2,
+      "flags": [
+        "Unusual rating distribution (many 5s and 1s)",
+        "Repeated review text detected"
+      ]
+    },
+    "value_for_money": {
+      "price_band": "mid-range",
+      "value_index": 38.8
+    },
+    "products": [
+      {
+        "asin": "B097BG27MD",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1869.0",
+        "mrp": "8999.0",
+        "discount_pct": "79",
+        "url": "https://www.amazon.in/dp/B097BG27MD"
+      },
+      {
+        "asin": "B0F9FMQZWN",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "2099.0",
+        "mrp": "8999.0",
+        "discount_pct": "77",
+        "url": "https://www.amazon.in/dp/B0F9FMQZWN"
+      },
+      {
+        "asin": "B0F67G7R9M",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "4799.0",
+        "mrp": "27997.0",
+        "discount_pct": "83",
+        "url": "https://www.amazon.in/dp/B0F67G7R9M"
+      },
+      {
+        "asin": "B0DSJGQYGD",
+        "brand": "Safari",
+        "title": "FUR JADEN",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "7999.0",
+        "mrp": "13000.0",
+        "discount_pct": "38",
+        "url": "https://www.amazon.in/dp/B0DSJGQYGD"
+      },
+      {
+        "asin": "B0F67KYF8J",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "4799.0",
+        "mrp": "27997.0",
+        "discount_pct": "83",
+        "url": "https://www.amazon.in/dp/B0F67KYF8J"
+      },
+      {
+        "asin": "B0FLYJ6H77",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "1999.0",
+        "mrp": "8999.0",
+        "discount_pct": "78",
+        "url": "https://www.amazon.in/dp/B0FLYJ6H77"
+      },
+      {
+        "asin": "B097BG27MD",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1869.0",
+        "mrp": "8999.0",
+        "discount_pct": "79",
+        "url": "https://www.amazon.in/dp/B097BG27MD"
+      },
+      {
+        "asin": "B0F67L3Y72",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "1999.0",
+        "mrp": "8999.0",
+        "discount_pct": "78",
+        "url": "https://www.amazon.in/dp/B0F67L3Y72"
+      },
+      {
+        "asin": "B097GR45SS",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2299.0",
+        "mrp": "10999.0",
+        "discount_pct": "79",
+        "url": "https://www.amazon.in/dp/B097GR45SS"
+      },
+      {
+        "asin": "B097BH338H",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1869.0",
+        "mrp": "8999.0",
+        "discount_pct": "79",
+        "url": "https://www.amazon.in/dp/B097BH338H"
+      },
+      {
+        "asin": "B097JMXLT9",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "2699.0",
+        "mrp": "9800.0",
+        "discount_pct": "72",
+        "url": "https://www.amazon.in/dp/B097JMXLT9"
+      },
+      {
+        "asin": "B0FLYJD912",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "2709.0",
+        "mrp": "15998.0",
+        "discount_pct": "83",
+        "url": "https://www.amazon.in/dp/B0FLYJD912"
+      },
+      {
+        "asin": "B097BHHCLF",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "",
+        "mrp": "",
+        "discount_pct": "0",
+        "url": "https://www.amazon.in/dp/B097BHHCLF"
+      },
+      {
+        "asin": "B097B45LDH",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "3099.0",
+        "mrp": "12999.0",
+        "discount_pct": "76",
+        "url": "https://www.amazon.in/dp/B097B45LDH"
+      },
+      {
+        "asin": "B097JLP1SV",
+        "brand": "Safari",
+        "title": "Safari",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "2699.0",
+        "mrp": "9800.0",
+        "discount_pct": "72",
+        "url": "https://www.amazon.in/dp/B097JLP1SV"
+      }
+    ]
+  },
+  "Skybags": {
+    "brand": "Skybags",
+    "product_count": 15,
+    "review_count": 592,
+    "avg_price": 2476.7,
+    "avg_mrp": 7564.6,
+    "avg_discount_pct": 67.7,
+    "avg_rating": 4.2,
+    "sentiment_score": 70.8,
+    "themes": {
+      "top_positives": [
+        "good",
+        "quality",
+        "nice",
+        "durable",
+        "great"
+      ],
+      "top_negatives": [
+        "bad",
+        "defective",
+        "broken",
+        "poor",
+        "waste"
+      ]
+    },
+    "aspect_sentiment": {
+      "wheels": 70.9,
+      "handle": 56.0,
+      "zipper": 75.5,
+      "material": 74.9,
+      "size": 70.7,
+      "weight": 86.3
+    },
+    "trust_signals": {
+      "verified_pct": 99.3,
+      "rating_skew": 75.7,
+      "repetition_score": 85.1,
+      "flags": [
+        "Unusual rating distribution (many 5s and 1s)",
+        "Repeated review text detected"
+      ]
+    },
+    "value_for_money": {
+      "price_band": "budget",
+      "value_index": 67.1
+    },
+    "products": [
+      {
+        "asin": "B0DSJGQYGD",
+        "brand": "Skybags",
+        "title": "FUR JADEN",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "7999.0",
+        "mrp": "13000.0",
+        "discount_pct": "38",
+        "url": "https://www.amazon.in/dp/B0DSJGQYGD"
+      },
+      {
+        "asin": "B097JLP1SV",
+        "brand": "Skybags",
+        "title": "Safari",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "2699.0",
+        "mrp": "9800.0",
+        "discount_pct": "72",
+        "url": "https://www.amazon.in/dp/B097JLP1SV"
+      },
+      {
+        "asin": "B073JWDLXZ",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "2499.0",
+        "mrp": "7790.0",
+        "discount_pct": "68",
+        "url": "https://www.amazon.in/dp/B073JWDLXZ"
+      },
+      {
+        "asin": "B0FNDDMQTC",
+        "brand": "Skybags",
+        "title": "Safari",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "3499.0",
+        "mrp": "16798.0",
+        "discount_pct": "79",
+        "url": "https://www.amazon.in/dp/B0FNDDMQTC"
+      },
+      {
+        "asin": "B07HCRSLFY",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "3099.0",
+        "mrp": "9050.0",
+        "discount_pct": "66",
+        "url": "https://www.amazon.in/dp/B07HCRSLFY"
+      },
+      {
+        "asin": "B0C8ZD8KNP",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2699.0",
+        "mrp": "9100.0",
+        "discount_pct": "70",
+        "url": "https://www.amazon.in/dp/B0C8ZD8KNP"
+      },
+      {
+        "asin": "B073JSGMRS",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1089.0",
+        "mrp": "4620.0",
+        "discount_pct": "76",
+        "url": "https://www.amazon.in/dp/B073JSGMRS"
+      },
+      {
+        "asin": "B0C8ZY4579",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1649.0",
+        "mrp": "4450.0",
+        "discount_pct": "63",
+        "url": "https://www.amazon.in/dp/B0C8ZY4579"
+      },
+      {
+        "asin": "B0CPSW5WJ5",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.4",
+        "review_count": "0",
+        "price": "1699.0",
+        "mrp": "7060.0",
+        "discount_pct": "76",
+        "url": "https://www.amazon.in/dp/B0CPSW5WJ5"
+      },
+      {
+        "asin": "B073JYDK7P",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "791.9",
+        "mrp": "2230.0",
+        "discount_pct": "64",
+        "url": "https://www.amazon.in/dp/B073JYDK7P"
+      },
+      {
+        "asin": "B0D919CMLP",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "899.0",
+        "mrp": "3000.0",
+        "discount_pct": "70",
+        "url": "https://www.amazon.in/dp/B0D919CMLP"
+      },
+      {
+        "asin": "B073JZ9QGR",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1341.9",
+        "mrp": "4620.0",
+        "discount_pct": "71",
+        "url": "https://www.amazon.in/dp/B073JZ9QGR"
+      },
+      {
+        "asin": "B0CPSSB4BN",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.4",
+        "review_count": "0",
+        "price": "1959.0",
+        "mrp": "7060.0",
+        "discount_pct": "72",
+        "url": "https://www.amazon.in/dp/B0CPSSB4BN"
+      },
+      {
+        "asin": "B0G6F1SC7T",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "2829.0",
+        "mrp": "8066.0",
+        "discount_pct": "65",
+        "url": "https://www.amazon.in/dp/B0G6F1SC7T"
+      },
+      {
+        "asin": "B0D9P1LQ13",
+        "brand": "Skybags",
+        "title": "Skybags",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2399.0",
+        "mrp": "6825.0",
+        "discount_pct": "65",
+        "url": "https://www.amazon.in/dp/B0D9P1LQ13"
+      }
+    ]
+  },
+  "American Tourister": {
+    "brand": "American Tourister",
+    "product_count": 15,
+    "review_count": 532,
+    "avg_price": 3760.8,
+    "avg_mrp": 9044.0,
+    "avg_discount_pct": 56.9,
+    "avg_rating": 4.2,
+    "sentiment_score": 65.1,
+    "themes": {
+      "top_positives": [
+        "good",
+        "quality",
+        "nice",
+        "great",
+        "amazing"
+      ],
+      "top_negatives": [
+        "disappointed",
+        "bad",
+        "worst",
+        "poor",
+        "broke"
+      ]
+    },
+    "aspect_sentiment": {
+      "wheels": 86.6,
+      "handle": 58.0,
+      "zipper": 61.9,
+      "material": 62.7,
+      "size": 60.8,
+      "weight": 61.9
+    },
+    "trust_signals": {
+      "verified_pct": 97.0,
+      "rating_skew": 71.4,
+      "repetition_score": 84.2,
+      "flags": [
+        "Unusual rating distribution (many 5s and 1s)",
+        "Repeated review text detected"
+      ]
+    },
+    "value_for_money": {
+      "price_band": "mid-range",
+      "value_index": 33.0
+    },
+    "products": [
+      {
+        "asin": "B0F5HL713C",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "3799.0",
+        "mrp": "9800.0",
+        "discount_pct": "61",
+        "url": "https://www.amazon.in/dp/B0F5HL713C"
+      },
+      {
+        "asin": "B09RPLYFXJ",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2549.0",
+        "mrp": "8490.0",
+        "discount_pct": "70",
+        "url": "https://www.amazon.in/dp/B09RPLYFXJ"
+      },
+      {
+        "asin": "B0FFBLNH3N",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "5049.0",
+        "mrp": "8450.0",
+        "discount_pct": "40",
+        "url": "https://www.amazon.in/dp/B0FFBLNH3N"
+      },
+      {
+        "asin": "B0DSBS281B",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "6787.0",
+        "mrp": "9050.0",
+        "discount_pct": "25",
+        "url": "https://www.amazon.in/dp/B0DSBS281B"
+      },
+      {
+        "asin": "B09RPLYFXJ",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2549.0",
+        "mrp": "8490.0",
+        "discount_pct": "70",
+        "url": "https://www.amazon.in/dp/B09RPLYFXJ"
+      },
+      {
+        "asin": "B0CW9T2Y43",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2799.0",
+        "mrp": "7390.0",
+        "discount_pct": "62",
+        "url": "https://www.amazon.in/dp/B0CW9T2Y43"
+      },
+      {
+        "asin": "B0F5HKFPWR",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "3099.0",
+        "mrp": "8450.0",
+        "discount_pct": "63",
+        "url": "https://www.amazon.in/dp/B0F5HKFPWR"
+      },
+      {
+        "asin": "B0F5HGLC5Q",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "2799.0",
+        "mrp": "7500.0",
+        "discount_pct": "63",
+        "url": "https://www.amazon.in/dp/B0F5HGLC5Q"
+      },
+      {
+        "asin": "B0CW9VLDKD",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "3999.0",
+        "mrp": "10500.0",
+        "discount_pct": "62",
+        "url": "https://www.amazon.in/dp/B0CW9VLDKD"
+      },
+      {
+        "asin": "B0F5HM58RR",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "3799.0",
+        "mrp": "9800.0",
+        "discount_pct": "61",
+        "url": "https://www.amazon.in/dp/B0F5HM58RR"
+      },
+      {
+        "asin": "B0F5HQQ361",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "3599.0",
+        "mrp": "9950.0",
+        "discount_pct": "64",
+        "url": "https://www.amazon.in/dp/B0F5HQQ361"
+      },
+      {
+        "asin": "B0D62PN1J9",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "3899.0",
+        "mrp": "10890.0",
+        "discount_pct": "64",
+        "url": "https://www.amazon.in/dp/B0D62PN1J9"
+      },
+      {
+        "asin": "B0F5HLY8ND",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "5299.0",
+        "mrp": "14600.0",
+        "discount_pct": "64",
+        "url": "https://www.amazon.in/dp/B0F5HLY8ND"
+      },
+      {
+        "asin": "B073XL1C3W",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2299.0",
+        "mrp": "7500.0",
+        "discount_pct": "69",
+        "url": "https://www.amazon.in/dp/B073XL1C3W"
+      },
+      {
+        "asin": "B0CHRL351K",
+        "brand": "American Tourister",
+        "title": "American Tourister",
+        "rating": "4.5",
+        "review_count": "0",
+        "price": "4088.0",
+        "mrp": "4800.0",
+        "discount_pct": "15",
+        "url": "https://www.amazon.in/dp/B0CHRL351K"
+      }
+    ]
+  },
+  "VIP": {
+    "brand": "VIP",
+    "product_count": 15,
+    "review_count": 472,
+    "avg_price": 4412.8,
+    "avg_mrp": 13211.5,
+    "avg_discount_pct": 66.6,
+    "avg_rating": 4.2,
+    "sentiment_score": 67.0,
+    "themes": {
+      "top_positives": [
+        "good",
+        "quality",
+        "durable",
+        "sturdy",
+        "nice"
+      ],
+      "top_negatives": [
+        "bad",
+        "broken",
+        "cheap",
+        "flimsy",
+        "worst"
+      ]
+    },
+    "aspect_sentiment": {
+      "wheels": 82.4,
+      "handle": 59.9,
+      "zipper": 58.8,
+      "material": 64.1,
+      "size": 74.7,
+      "weight": 80.0
+    },
+    "trust_signals": {
+      "verified_pct": 94.9,
+      "rating_skew": 72.0,
+      "repetition_score": 81.6,
+      "flags": [
+        "Unusual rating distribution (many 5s and 1s)",
+        "Repeated review text detected"
+      ]
+    },
+    "value_for_money": {
+      "price_band": "mid-range",
+      "value_index": 27.5
+    },
+    "products": [
+      {
+        "asin": "B0F4K9VLQ8",
+        "brand": "VIP",
+        "title": "VIP",
+        "rating": "4.4",
+        "review_count": "0",
+        "price": "7700.0",
+        "mrp": "17180.0",
+        "discount_pct": "55",
+        "url": "https://www.amazon.in/dp/B0F4K9VLQ8"
+      },
+      {
+        "asin": "B0DSJGQYGD",
+        "brand": "VIP",
+        "title": "FUR JADEN",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "7999.0",
+        "mrp": "13000.0",
+        "discount_pct": "38",
+        "url": "https://www.amazon.in/dp/B0DSJGQYGD"
+      },
+      {
+        "asin": "B0FC6QHJD7",
+        "brand": "VIP",
+        "title": "Aristocrat",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1439.0",
+        "mrp": "7990.0",
+        "discount_pct": "82",
+        "url": "https://www.amazon.in/dp/B0FC6QHJD7"
+      },
+      {
+        "asin": "B0GH8DFNY9",
+        "brand": "VIP",
+        "title": "Provogue",
+        "rating": "3.6",
+        "review_count": "0",
+        "price": "4099.0",
+        "mrp": "9749.0",
+        "discount_pct": "58",
+        "url": "https://www.amazon.in/dp/B0GH8DFNY9"
+      },
+      {
+        "asin": "B0CBTZP3CL",
+        "brand": "VIP",
+        "title": "VIP",
+        "rating": "3.7",
+        "review_count": "0",
+        "price": "3029.0",
+        "mrp": "10200.0",
+        "discount_pct": "70",
+        "url": "https://www.amazon.in/dp/B0CBTZP3CL"
+      },
+      {
+        "asin": "B0D4RD23TM",
+        "brand": "VIP",
+        "title": "VIP",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "3270.0",
+        "mrp": "12600.0",
+        "discount_pct": "74",
+        "url": "https://www.amazon.in/dp/B0D4RD23TM"
+      },
+      {
+        "asin": "B0GQF3J624",
+        "brand": "VIP",
+        "title": "VIP",
+        "rating": "3.7",
+        "review_count": "0",
+        "price": "4399.0",
+        "mrp": "12100.0",
+        "discount_pct": "64",
+        "url": "https://www.amazon.in/dp/B0GQF3J624"
+      },
+      {
+        "asin": "B0DDLDXT8N",
+        "brand": "VIP",
+        "title": "VIP",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "6339.0",
+        "mrp": "19998.0",
+        "discount_pct": "68",
+        "url": "https://www.amazon.in/dp/B0DDLDXT8N"
+      },
+      {
+        "asin": "B0D4RDWVKY",
+        "brand": "VIP",
+        "title": "VIP",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "3379.0",
+        "mrp": "12600.0",
+        "discount_pct": "73",
+        "url": "https://www.amazon.in/dp/B0D4RDWVKY"
+      },
+      {
+        "asin": "B0D4RYN3GR",
+        "brand": "VIP",
+        "title": "VIP",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "2719.0",
+        "mrp": "10090.0",
+        "discount_pct": "73",
+        "url": "https://www.amazon.in/dp/B0D4RYN3GR"
+      },
+      {
+        "asin": "B0FPXMYQZY",
+        "brand": "VIP",
+        "title": "Aristocrat",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "5609.0",
+        "mrp": "25880.0",
+        "discount_pct": "78",
+        "url": "https://www.amazon.in/dp/B0FPXMYQZY"
+      },
+      {
+        "asin": "B0CBTXMRKF",
+        "brand": "VIP",
+        "title": "VIP",
+        "rating": "4.8",
+        "review_count": "0",
+        "price": "3990.0",
+        "mrp": "14990.0",
+        "discount_pct": "73",
+        "url": "https://www.amazon.in/dp/B0CBTXMRKF"
+      },
+      {
+        "asin": "B073JWDLXZ",
+        "brand": "VIP",
+        "title": "Skybags",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "2499.0",
+        "mrp": "7790.0",
+        "discount_pct": "68",
+        "url": "https://www.amazon.in/dp/B073JWDLXZ"
+      },
+      {
+        "asin": "B0F4K9VLQ8",
+        "brand": "VIP",
+        "title": "VIP",
+        "rating": "4.4",
+        "review_count": "0",
+        "price": "7700.0",
+        "mrp": "17180.0",
+        "discount_pct": "55",
+        "url": "https://www.amazon.in/dp/B0F4K9VLQ8"
+      },
+      {
+        "asin": "B0C8ZFXCB6",
+        "brand": "VIP",
+        "title": "Skybags",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2021.54",
+        "mrp": "6825.0",
+        "discount_pct": "70",
+        "url": "https://www.amazon.in/dp/B0C8ZFXCB6"
+      }
+    ]
+  },
+  "Aristocrat": {
+    "brand": "Aristocrat",
+    "product_count": 15,
+    "review_count": 584,
+    "avg_price": 2021.7,
+    "avg_mrp": 9932.7,
+    "avg_discount_pct": 79.1,
+    "avg_rating": 4.2,
+    "sentiment_score": 64.6,
+    "themes": {
+      "top_positives": [
+        "good",
+        "quality",
+        "durable",
+        "sturdy",
+        "nice"
+      ],
+      "top_negatives": [
+        "poor",
+        "bad",
+        "damaged",
+        "loose"
+      ]
+    },
+    "aspect_sentiment": {
+      "wheels": 97.2,
+      "handle": 65.3,
+      "zipper": 58.0,
+      "material": 60.6,
+      "size": 83.0,
+      "weight": 89.2
+    },
+    "trust_signals": {
+      "verified_pct": 93.2,
+      "rating_skew": 71.2,
+      "repetition_score": 88.9,
+      "flags": [
+        "Unusual rating distribution (many 5s and 1s)",
+        "Repeated review text detected"
+      ]
+    },
+    "value_for_money": {
+      "price_band": "budget",
+      "value_index": 64.6
+    },
+    "products": [
+      {
+        "asin": "B0FC6QHJD7",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1439.0",
+        "mrp": "7990.0",
+        "discount_pct": "82",
+        "url": "https://www.amazon.in/dp/B0FC6QHJD7"
+      },
+      {
+        "asin": "B0C1K4F8NN",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "2609.0",
+        "mrp": "11240.0",
+        "discount_pct": "77",
+        "url": "https://www.amazon.in/dp/B0C1K4F8NN"
+      },
+      {
+        "asin": "B0DG29HXKS",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "1899.0",
+        "mrp": "9990.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B0DG29HXKS"
+      },
+      {
+        "asin": "B0BSV5RK5C",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1849.0",
+        "mrp": "10345.0",
+        "discount_pct": "82",
+        "url": "https://www.amazon.in/dp/B0BSV5RK5C"
+      },
+      {
+        "asin": "B0D4S1FHLD",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2099.0",
+        "mrp": "12920.0",
+        "discount_pct": "84",
+        "url": "https://www.amazon.in/dp/B0D4S1FHLD"
+      },
+      {
+        "asin": "B0FMF3SLPK",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1499.0",
+        "mrp": "6250.0",
+        "discount_pct": "76",
+        "url": "https://www.amazon.in/dp/B0FMF3SLPK"
+      },
+      {
+        "asin": "B0C1K6D51D",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "2609.0",
+        "mrp": "11240.0",
+        "discount_pct": "77",
+        "url": "https://www.amazon.in/dp/B0C1K6D51D"
+      },
+      {
+        "asin": "B0FC6L8H6G",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "3149.0",
+        "mrp": "18880.0",
+        "discount_pct": "83",
+        "url": "https://www.amazon.in/dp/B0FC6L8H6G"
+      },
+      {
+        "asin": "B0FC6RZNDC",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1439.0",
+        "mrp": "7990.0",
+        "discount_pct": "82",
+        "url": "https://www.amazon.in/dp/B0FC6RZNDC"
+      },
+      {
+        "asin": "B0CWSB5B17",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "469.0",
+        "mrp": "2080.0",
+        "discount_pct": "77",
+        "url": "https://www.amazon.in/dp/B0CWSB5B17"
+      },
+      {
+        "asin": "B0FMF7NN53",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1949.0",
+        "mrp": "8125.0",
+        "discount_pct": "76",
+        "url": "https://www.amazon.in/dp/B0FMF7NN53"
+      },
+      {
+        "asin": "B0FPXMK92R",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "3269.0",
+        "mrp": "15280.0",
+        "discount_pct": "79",
+        "url": "https://www.amazon.in/dp/B0FPXMK92R"
+      },
+      {
+        "asin": "B0C1K4F8NN",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "2609.0",
+        "mrp": "11240.0",
+        "discount_pct": "77",
+        "url": "https://www.amazon.in/dp/B0C1K4F8NN"
+      },
+      {
+        "asin": "B0FMF3V9TC",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1549.0",
+        "mrp": "6250.0",
+        "discount_pct": "75",
+        "url": "https://www.amazon.in/dp/B0FMF3V9TC"
+      },
+      {
+        "asin": "B0D6YYTKM2",
+        "brand": "Aristocrat",
+        "title": "Aristocrat",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "1889.0",
+        "mrp": "9170.0",
+        "discount_pct": "79",
+        "url": "https://www.amazon.in/dp/B0D6YYTKM2"
+      }
+    ]
+  },
+  "Nasher Miles": {
+    "brand": "Nasher Miles",
+    "product_count": 15,
+    "review_count": 544,
+    "avg_price": 3616.3,
+    "avg_mrp": 18527.7,
+    "avg_discount_pct": 80.5,
+    "avg_rating": 4.2,
+    "sentiment_score": 67.7,
+    "themes": {
+      "top_positives": [
+        "good",
+        "quality",
+        "nice",
+        "sturdy",
+        "smooth"
+      ],
+      "top_negatives": [
+        "broken",
+        "broke",
+        "cheap",
+        "bad",
+        "worst"
+      ]
+    },
+    "aspect_sentiment": {
+      "wheels": 84.6,
+      "handle": 56.1,
+      "zipper": 65.1,
+      "material": 67.9,
+      "size": 70.2,
+      "weight": 74.0
+    },
+    "trust_signals": {
+      "verified_pct": 95.6,
+      "rating_skew": 69.9,
+      "repetition_score": 88.6,
+      "flags": [
+        "Repeated review text detected"
+      ]
+    },
+    "value_for_money": {
+      "price_band": "mid-range",
+      "value_index": 36.2
+    },
+    "products": [
+      {
+        "asin": "B09G6ZFJPX",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "3449.0",
+        "mrp": "17995.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B09G6ZFJPX"
+      },
+      {
+        "asin": "B0D765JZRP",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.1",
+        "review_count": "0",
+        "price": "2549.0",
+        "mrp": "12995.0",
+        "discount_pct": "80",
+        "url": "https://www.amazon.in/dp/B0D765JZRP"
+      },
+      {
+        "asin": "B0CGTXDN9N",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "3399.0",
+        "mrp": "17995.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B0CGTXDN9N"
+      },
+      {
+        "asin": "B0DXPNWRM4",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "8999.0",
+        "mrp": "47985.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B0DXPNWRM4"
+      },
+      {
+        "asin": "B0CGTXL5V1",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "3489.0",
+        "mrp": "17995.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B0CGTXL5V1"
+      },
+      {
+        "asin": "B09G71JXVS",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "2949.0",
+        "mrp": "15995.0",
+        "discount_pct": "82",
+        "url": "https://www.amazon.in/dp/B09G71JXVS"
+      },
+      {
+        "asin": "B09G715R22",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "2998.0",
+        "mrp": "15995.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B09G715R22"
+      },
+      {
+        "asin": "B0GCZGLLK5",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "3089.0",
+        "mrp": "15995.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B0GCZGLLK5"
+      },
+      {
+        "asin": "B09G72J5Y6",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "2699.0",
+        "mrp": "13995.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B09G72J5Y6"
+      },
+      {
+        "asin": "B0D47KQ81Z",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "3.7",
+        "review_count": "0",
+        "price": "2749.0",
+        "mrp": "16995.0",
+        "discount_pct": "84",
+        "url": "https://www.amazon.in/dp/B0D47KQ81Z"
+      },
+      {
+        "asin": "B0CGTX3Z86",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2699.0",
+        "mrp": "13995.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B0CGTX3Z86"
+      },
+      {
+        "asin": "B0D6BS5BGY",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.3",
+        "review_count": "0",
+        "price": "3699.0",
+        "mrp": "16995.0",
+        "discount_pct": "78",
+        "url": "https://www.amazon.in/dp/B0D6BS5BGY"
+      },
+      {
+        "asin": "B094DM58FP",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.0",
+        "review_count": "0",
+        "price": "4999.0",
+        "mrp": "18995.0",
+        "discount_pct": "74",
+        "url": "https://www.amazon.in/dp/B094DM58FP"
+      },
+      {
+        "asin": "B0CGTW6W81",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "2989.0",
+        "mrp": "15995.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B0CGTW6W81"
+      },
+      {
+        "asin": "B0CGTVR451",
+        "brand": "Nasher Miles",
+        "title": "Nasher Miles",
+        "rating": "4.2",
+        "review_count": "0",
+        "price": "3489.0",
+        "mrp": "17995.0",
+        "discount_pct": "81",
+        "url": "https://www.amazon.in/dp/B0CGTVR451"
+      }
+    ]
+  }
+}
