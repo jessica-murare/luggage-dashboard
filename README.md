@@ -68,6 +68,7 @@ The core workflow is: **Scrape → Analyze → Compare → Present**
 ---
 
 ## Project structure
+```
 luggage-dashboard/
 ├── scraper/
 │   ├── scrape_products.py       # scrapes product listings from Amazon India
@@ -96,6 +97,7 @@ luggage-dashboard/
 ├── .gitignore
 └── README.md
 
+```
 ---
 
 ## Setup and installation
