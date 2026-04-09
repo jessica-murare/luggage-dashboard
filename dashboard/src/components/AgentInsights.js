@@ -1,8 +1,6 @@
 export default function AgentInsights({ brands }) {
   const topBrand = [...brands].sort((a, b) => b.sentiment_score - a.sentiment_score)[0];
-  const worstBrand = [...brands].sort((a, b) => a.sentiment_score - b.sentiment_score)[0];
   const bestValue = [...brands].sort((a, b) => b.value_for_money.value_index - a.value_for_money.value_index)[0];
-  const worstValue = [...brands].sort((a, b) => a.value_for_money.value_index - b.value_for_money.value_index)[0];
   const mostDiscount = [...brands].sort((a, b) => b.avg_discount_pct - a.avg_discount_pct)[0];
   const priciest = [...brands].sort((a, b) => b.avg_price - a.avg_price)[0];
 
