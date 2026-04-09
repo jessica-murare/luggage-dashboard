@@ -1,91 +1,86 @@
 asin,brand,title,rating,review_count,price,mrp,discount_pct,url
-B097BG27MD,Safari,Safari,4.2,0,1869.0,8999.0,79,https://www.amazon.in/dp/B097BG27MD
-B0F9FMQZWN,Safari,Safari,4.1,0,2099.0,8999.0,77,https://www.amazon.in/dp/B0F9FMQZWN
+B097BG27MD,Safari,Safari,4.2,9,1869.0,8999.0,79,https://www.amazon.in/dp/B097BG27MD
+B0F9FMQZWN,Safari,Safari,4.1,10,2099.0,8999.0,77,https://www.amazon.in/dp/B0F9FMQZWN
 B0F67G7R9M,Safari,Safari,4.0,0,4799.0,27997.0,83,https://www.amazon.in/dp/B0F67G7R9M
-B0DSJGQYGD,Safari,FUR JADEN,4.3,0,7999.0,13000.0,38,https://www.amazon.in/dp/B0DSJGQYGD
+B0DSJGQYGD,Safari,FUR JADEN,4.3,10,7999.0,13000.0,38,https://www.amazon.in/dp/B0DSJGQYGD
 B0F67KYF8J,Safari,Safari,4.0,0,4799.0,27997.0,83,https://www.amazon.in/dp/B0F67KYF8J
-B0FLYJ6H77,Safari,Safari,4.0,0,1999.0,8999.0,78,https://www.amazon.in/dp/B0FLYJ6H77
-B097BG27MD,Safari,Safari,4.2,0,1869.0,8999.0,79,https://www.amazon.in/dp/B097BG27MD
-B0F67L3Y72,Safari,Safari,4.0,0,1999.0,8999.0,78,https://www.amazon.in/dp/B0F67L3Y72
+B0FLYJ6H77,Safari,Safari,4.0,9,1999.0,8999.0,78,https://www.amazon.in/dp/B0FLYJ6H77
+B0F67L3Y72,Safari,Safari,4.0,9,1999.0,8999.0,78,https://www.amazon.in/dp/B0F67L3Y72
 B097GR45SS,Safari,Safari,4.2,0,2299.0,10999.0,79,https://www.amazon.in/dp/B097GR45SS
-B097BH338H,Safari,Safari,4.2,0,1869.0,8999.0,79,https://www.amazon.in/dp/B097BH338H
-B097JMXLT9,Safari,Safari,4.0,0,2699.0,9800.0,72,https://www.amazon.in/dp/B097JMXLT9
-B0FLYJD912,Safari,Safari,4.0,0,2709.0,15998.0,83,https://www.amazon.in/dp/B0FLYJD912
-B097BHHCLF,Safari,Safari,4.2,0,,,0,https://www.amazon.in/dp/B097BHHCLF
-B097B45LDH,Safari,Safari,4.1,0,3099.0,12999.0,76,https://www.amazon.in/dp/B097B45LDH
-B097JLP1SV,Safari,Safari,4.0,0,2699.0,9800.0,72,https://www.amazon.in/dp/B097JLP1SV
-B0DSJGQYGD,Skybags,FUR JADEN,4.3,0,7999.0,13000.0,38,https://www.amazon.in/dp/B0DSJGQYGD
-B097JLP1SV,Skybags,Safari,4.0,0,2699.0,9800.0,72,https://www.amazon.in/dp/B097JLP1SV
-B073JWDLXZ,Skybags,Skybags,4.3,0,2499.0,7790.0,68,https://www.amazon.in/dp/B073JWDLXZ
-B0FNDDMQTC,Skybags,Safari,4.1,0,3499.0,16798.0,79,https://www.amazon.in/dp/B0FNDDMQTC
-B07HCRSLFY,Skybags,Skybags,4.3,0,3099.0,9050.0,66,https://www.amazon.in/dp/B07HCRSLFY
-B0C8ZD8KNP,Skybags,Skybags,4.2,0,2699.0,9100.0,70,https://www.amazon.in/dp/B0C8ZD8KNP
-B073JSGMRS,Skybags,Skybags,4.2,0,1089.0,4620.0,76,https://www.amazon.in/dp/B073JSGMRS
-B0C8ZY4579,Skybags,Skybags,4.2,0,1649.0,4450.0,63,https://www.amazon.in/dp/B0C8ZY4579
-B0CPSW5WJ5,Skybags,Skybags,4.4,0,1699.0,7060.0,76,https://www.amazon.in/dp/B0CPSW5WJ5
-B073JYDK7P,Skybags,Skybags,4.2,0,791.9,2230.0,64,https://www.amazon.in/dp/B073JYDK7P
-B0D919CMLP,Skybags,Skybags,4.3,0,899.0,3000.0,70,https://www.amazon.in/dp/B0D919CMLP
+B097BH338H,Safari,Safari,4.2,9,1869.0,8999.0,79,https://www.amazon.in/dp/B097BH338H
+B097JMXLT9,Safari,Safari,4.0,10,2699.0,9800.0,72,https://www.amazon.in/dp/B097JMXLT9
+B0FLYJD912,Safari,Safari,4.0,9,2709.0,15998.0,83,https://www.amazon.in/dp/B0FLYJD912
+B097B45LDH,Safari,Safari,4.1,10,3099.0,12999.0,76,https://www.amazon.in/dp/B097B45LDH
+B097JLP1SV,Safari,Safari,4.0,10,2699.0,9800.0,72,https://www.amazon.in/dp/B097JLP1SV
+B0DSJGQYGD,Skybags,FUR JADEN,4.3,10,7999.0,13000.0,38,https://www.amazon.in/dp/B0DSJGQYGD
+B097JLP1SV,Skybags,Safari,4.0,10,2699.0,9800.0,72,https://www.amazon.in/dp/B097JLP1SV
+B073JWDLXZ,Skybags,Skybags,4.3,10,2499.0,7790.0,68,https://www.amazon.in/dp/B073JWDLXZ
+B0FNDDMQTC,Skybags,Safari,4.1,10,3499.0,16798.0,79,https://www.amazon.in/dp/B0FNDDMQTC
+B07HCRSLFY,Skybags,Skybags,4.3,10,3099.0,9050.0,66,https://www.amazon.in/dp/B07HCRSLFY
+B0C8ZD8KNP,Skybags,Skybags,4.2,10,2699.0,9100.0,70,https://www.amazon.in/dp/B0C8ZD8KNP
+B073JSGMRS,Skybags,Skybags,4.2,9,1089.0,4620.0,76,https://www.amazon.in/dp/B073JSGMRS
+B0C8ZY4579,Skybags,Skybags,4.2,10,1649.0,4450.0,63,https://www.amazon.in/dp/B0C8ZY4579
+B0CPSW5WJ5,Skybags,Skybags,4.4,10,1699.0,7060.0,76,https://www.amazon.in/dp/B0CPSW5WJ5
+B073JYDK7P,Skybags,Skybags,4.2,10,791.9,2230.0,64,https://www.amazon.in/dp/B073JYDK7P
+B0D919CMLP,Skybags,Skybags,4.3,8,899.0,3000.0,70,https://www.amazon.in/dp/B0D919CMLP
 B073JZ9QGR,Skybags,Skybags,4.2,0,1341.9,4620.0,71,https://www.amazon.in/dp/B073JZ9QGR
-B0CPSSB4BN,Skybags,Skybags,4.4,0,1959.0,7060.0,72,https://www.amazon.in/dp/B0CPSSB4BN
+B0CPSSB4BN,Skybags,Skybags,4.4,10,1959.0,7060.0,72,https://www.amazon.in/dp/B0CPSSB4BN
 B0G6F1SC7T,Skybags,Skybags,4.3,0,2829.0,8066.0,65,https://www.amazon.in/dp/B0G6F1SC7T
-B0D9P1LQ13,Skybags,Skybags,4.2,0,2399.0,6825.0,65,https://www.amazon.in/dp/B0D9P1LQ13
-B0F5HL713C,American Tourister,American Tourister,4.1,0,3799.0,9800.0,61,https://www.amazon.in/dp/B0F5HL713C
-B09RPLYFXJ,American Tourister,American Tourister,4.2,0,2549.0,8490.0,70,https://www.amazon.in/dp/B09RPLYFXJ
-B0FFBLNH3N,American Tourister,American Tourister,4.1,0,5049.0,8450.0,40,https://www.amazon.in/dp/B0FFBLNH3N
-B0DSBS281B,American Tourister,American Tourister,4.1,0,6787.0,9050.0,25,https://www.amazon.in/dp/B0DSBS281B
-B09RPLYFXJ,American Tourister,American Tourister,4.2,0,2549.0,8490.0,70,https://www.amazon.in/dp/B09RPLYFXJ
+B0D9P1LQ13,Skybags,Skybags,4.2,10,2399.0,6825.0,65,https://www.amazon.in/dp/B0D9P1LQ13
+B0F5HL713C,American Tourister,American Tourister,4.1,9,3799.0,9800.0,61,https://www.amazon.in/dp/B0F5HL713C
+B09RPLYFXJ,American Tourister,American Tourister,4.2,9,2549.0,8490.0,70,https://www.amazon.in/dp/B09RPLYFXJ
+B0FFBLNH3N,American Tourister,American Tourister,4.1,6,5049.0,8450.0,40,https://www.amazon.in/dp/B0FFBLNH3N
+B0DSBS281B,American Tourister,American Tourister,4.1,10,6787.0,9050.0,25,https://www.amazon.in/dp/B0DSBS281B
 B0CW9T2Y43,American Tourister,American Tourister,4.2,0,2799.0,7390.0,62,https://www.amazon.in/dp/B0CW9T2Y43
-B0F5HKFPWR,American Tourister,American Tourister,4.2,0,3099.0,8450.0,63,https://www.amazon.in/dp/B0F5HKFPWR
-B0F5HGLC5Q,American Tourister,American Tourister,4.1,0,2799.0,7500.0,63,https://www.amazon.in/dp/B0F5HGLC5Q
-B0CW9VLDKD,American Tourister,American Tourister,4.2,0,3999.0,10500.0,62,https://www.amazon.in/dp/B0CW9VLDKD
-B0F5HM58RR,American Tourister,American Tourister,4.1,0,3799.0,9800.0,61,https://www.amazon.in/dp/B0F5HM58RR
-B0F5HQQ361,American Tourister,American Tourister,4.2,0,3599.0,9950.0,64,https://www.amazon.in/dp/B0F5HQQ361
-B0D62PN1J9,American Tourister,American Tourister,4.3,0,3899.0,10890.0,64,https://www.amazon.in/dp/B0D62PN1J9
-B0F5HLY8ND,American Tourister,American Tourister,4.1,0,5299.0,14600.0,64,https://www.amazon.in/dp/B0F5HLY8ND
-B073XL1C3W,American Tourister,American Tourister,4.2,0,2299.0,7500.0,69,https://www.amazon.in/dp/B073XL1C3W
-B0CHRL351K,American Tourister,American Tourister,4.5,0,4088.0,4800.0,15,https://www.amazon.in/dp/B0CHRL351K
-B0F4K9VLQ8,VIP,VIP,4.4,0,7700.0,17180.0,55,https://www.amazon.in/dp/B0F4K9VLQ8
-B0DSJGQYGD,VIP,FUR JADEN,4.3,0,7999.0,13000.0,38,https://www.amazon.in/dp/B0DSJGQYGD
-B0FC6QHJD7,VIP,Aristocrat,4.2,0,1439.0,7990.0,82,https://www.amazon.in/dp/B0FC6QHJD7
-B0GH8DFNY9,VIP,Provogue,3.6,0,4099.0,9749.0,58,https://www.amazon.in/dp/B0GH8DFNY9
-B0CBTZP3CL,VIP,VIP,3.7,0,3029.0,10200.0,70,https://www.amazon.in/dp/B0CBTZP3CL
-B0D4RD23TM,VIP,VIP,4.3,0,3270.0,12600.0,74,https://www.amazon.in/dp/B0D4RD23TM
-B0GQF3J624,VIP,VIP,3.7,0,4399.0,12100.0,64,https://www.amazon.in/dp/B0GQF3J624
-B0DDLDXT8N,VIP,VIP,4.1,0,6339.0,19998.0,68,https://www.amazon.in/dp/B0DDLDXT8N
-B0D4RDWVKY,VIP,VIP,4.3,0,3379.0,12600.0,73,https://www.amazon.in/dp/B0D4RDWVKY
-B0D4RYN3GR,VIP,VIP,4.3,0,2719.0,10090.0,73,https://www.amazon.in/dp/B0D4RYN3GR
-B0FPXMYQZY,VIP,Aristocrat,4.0,0,5609.0,25880.0,78,https://www.amazon.in/dp/B0FPXMYQZY
-B0CBTXMRKF,VIP,VIP,4.8,0,3990.0,14990.0,73,https://www.amazon.in/dp/B0CBTXMRKF
-B073JWDLXZ,VIP,Skybags,4.3,0,2499.0,7790.0,68,https://www.amazon.in/dp/B073JWDLXZ
-B0F4K9VLQ8,VIP,VIP,4.4,0,7700.0,17180.0,55,https://www.amazon.in/dp/B0F4K9VLQ8
+B0F5HKFPWR,American Tourister,American Tourister,4.2,7,3099.0,8450.0,63,https://www.amazon.in/dp/B0F5HKFPWR
+B0F5HGLC5Q,American Tourister,American Tourister,4.1,9,2799.0,7500.0,63,https://www.amazon.in/dp/B0F5HGLC5Q
+B0CW9VLDKD,American Tourister,American Tourister,4.2,10,3999.0,10500.0,62,https://www.amazon.in/dp/B0CW9VLDKD
+B0F5HM58RR,American Tourister,American Tourister,4.1,9,3799.0,9800.0,61,https://www.amazon.in/dp/B0F5HM58RR
+B0F5HQQ361,American Tourister,American Tourister,4.2,7,3599.0,9950.0,64,https://www.amazon.in/dp/B0F5HQQ361
+B0D62PN1J9,American Tourister,American Tourister,4.3,10,3899.0,10890.0,64,https://www.amazon.in/dp/B0D62PN1J9
+B0F5HLY8ND,American Tourister,American Tourister,4.1,9,5299.0,14600.0,64,https://www.amazon.in/dp/B0F5HLY8ND
+B073XL1C3W,American Tourister,American Tourister,4.2,10,2299.0,7500.0,69,https://www.amazon.in/dp/B073XL1C3W
+B0CHRL351K,American Tourister,American Tourister,4.5,9,4088.0,4800.0,15,https://www.amazon.in/dp/B0CHRL351K
+B0F4K9VLQ8,VIP,VIP,4.4,3,7700.0,17180.0,55,https://www.amazon.in/dp/B0F4K9VLQ8
+B0DSJGQYGD,VIP,FUR JADEN,4.3,10,7999.0,13000.0,38,https://www.amazon.in/dp/B0DSJGQYGD
+B0FC6QHJD7,VIP,Aristocrat,4.2,9,1439.0,7990.0,82,https://www.amazon.in/dp/B0FC6QHJD7
+B0GH8DFNY9,VIP,Provogue,3.6,10,4099.0,9749.0,58,https://www.amazon.in/dp/B0GH8DFNY9
+B0CBTZP3CL,VIP,VIP,3.7,7,3029.0,10200.0,70,https://www.amazon.in/dp/B0CBTZP3CL
+B0D4RD23TM,VIP,VIP,4.3,10,3270.0,12600.0,74,https://www.amazon.in/dp/B0D4RD23TM
+B0GQF3J624,VIP,VIP,3.7,7,4399.0,12100.0,64,https://www.amazon.in/dp/B0GQF3J624
+B0DDLDXT8N,VIP,VIP,4.1,10,6339.0,19998.0,68,https://www.amazon.in/dp/B0DDLDXT8N
+B0D4RDWVKY,VIP,VIP,4.3,10,3379.0,12600.0,73,https://www.amazon.in/dp/B0D4RDWVKY
+B0D4RYN3GR,VIP,VIP,4.3,10,2719.0,10090.0,73,https://www.amazon.in/dp/B0D4RYN3GR
+B0FPXMYQZY,VIP,Aristocrat,4.0,9,5609.0,25880.0,78,https://www.amazon.in/dp/B0FPXMYQZY
+B0CBTXMRKF,VIP,VIP,4.8,5,3990.0,14990.0,73,https://www.amazon.in/dp/B0CBTXMRKF
+B073JWDLXZ,VIP,Skybags,4.3,10,2499.0,7790.0,68,https://www.amazon.in/dp/B073JWDLXZ
 B0C8ZFXCB6,VIP,Skybags,4.2,0,2021.54,6825.0,70,https://www.amazon.in/dp/B0C8ZFXCB6
-B0FC6QHJD7,Aristocrat,Aristocrat,4.2,0,1439.0,7990.0,82,https://www.amazon.in/dp/B0FC6QHJD7
-B0C1K4F8NN,Aristocrat,Aristocrat,4.3,0,2609.0,11240.0,77,https://www.amazon.in/dp/B0C1K4F8NN
+B0FC6QHJD7,Aristocrat,Aristocrat,4.2,9,1439.0,7990.0,82,https://www.amazon.in/dp/B0FC6QHJD7
+B0C1K4F8NN,Aristocrat,Aristocrat,4.3,10,2609.0,11240.0,77,https://www.amazon.in/dp/B0C1K4F8NN
 B0DG29HXKS,Aristocrat,Aristocrat,4.1,0,1899.0,9990.0,81,https://www.amazon.in/dp/B0DG29HXKS
 B0BSV5RK5C,Aristocrat,Aristocrat,4.2,0,1849.0,10345.0,82,https://www.amazon.in/dp/B0BSV5RK5C
-B0D4S1FHLD,Aristocrat,Aristocrat,4.2,0,2099.0,12920.0,84,https://www.amazon.in/dp/B0D4S1FHLD
-B0FMF3SLPK,Aristocrat,Aristocrat,4.2,0,1499.0,6250.0,76,https://www.amazon.in/dp/B0FMF3SLPK
-B0C1K6D51D,Aristocrat,Aristocrat,4.3,0,2609.0,11240.0,77,https://www.amazon.in/dp/B0C1K6D51D
-B0FC6L8H6G,Aristocrat,Aristocrat,4.2,0,3149.0,18880.0,83,https://www.amazon.in/dp/B0FC6L8H6G
-B0FC6RZNDC,Aristocrat,Aristocrat,4.2,0,1439.0,7990.0,82,https://www.amazon.in/dp/B0FC6RZNDC
-B0CWSB5B17,Aristocrat,Aristocrat,4.3,0,469.0,2080.0,77,https://www.amazon.in/dp/B0CWSB5B17
-B0FMF7NN53,Aristocrat,Aristocrat,4.2,0,1949.0,8125.0,76,https://www.amazon.in/dp/B0FMF7NN53
+B0D4S1FHLD,Aristocrat,Aristocrat,4.2,10,2099.0,12920.0,84,https://www.amazon.in/dp/B0D4S1FHLD
+B0FMF3SLPK,Aristocrat,Aristocrat,4.2,10,1499.0,6250.0,76,https://www.amazon.in/dp/B0FMF3SLPK
+B0C1K6D51D,Aristocrat,Aristocrat,4.3,10,2609.0,11240.0,77,https://www.amazon.in/dp/B0C1K6D51D
+B0FC6L8H6G,Aristocrat,Aristocrat,4.2,9,3149.0,18880.0,83,https://www.amazon.in/dp/B0FC6L8H6G
+B0FC6RZNDC,Aristocrat,Aristocrat,4.2,9,1439.0,7990.0,82,https://www.amazon.in/dp/B0FC6RZNDC
+B0CWSB5B17,Aristocrat,Aristocrat,4.3,10,469.0,2080.0,77,https://www.amazon.in/dp/B0CWSB5B17
+B0FMF7NN53,Aristocrat,Aristocrat,4.2,10,1949.0,8125.0,76,https://www.amazon.in/dp/B0FMF7NN53
 B0FPXMK92R,Aristocrat,Aristocrat,4.0,0,3269.0,15280.0,79,https://www.amazon.in/dp/B0FPXMK92R
-B0C1K4F8NN,Aristocrat,Aristocrat,4.3,0,2609.0,11240.0,77,https://www.amazon.in/dp/B0C1K4F8NN
-B0FMF3V9TC,Aristocrat,Aristocrat,4.2,0,1549.0,6250.0,75,https://www.amazon.in/dp/B0FMF3V9TC
-B0D6YYTKM2,Aristocrat,Aristocrat,4.2,0,1889.0,9170.0,79,https://www.amazon.in/dp/B0D6YYTKM2
-B09G6ZFJPX,Nasher Miles,Nasher Miles,4.3,0,3449.0,17995.0,81,https://www.amazon.in/dp/B09G6ZFJPX
-B0D765JZRP,Nasher Miles,Nasher Miles,4.1,0,2549.0,12995.0,80,https://www.amazon.in/dp/B0D765JZRP
+B0FMF3V9TC,Aristocrat,Aristocrat,4.2,10,1549.0,6250.0,75,https://www.amazon.in/dp/B0FMF3V9TC
+B0D6YYTKM2,Aristocrat,Aristocrat,4.2,10,1889.0,9170.0,79,https://www.amazon.in/dp/B0D6YYTKM2
+B09G6ZFJPX,Nasher Miles,Nasher Miles,4.3,9,3449.0,17995.0,81,https://www.amazon.in/dp/B09G6ZFJPX
+B0D765JZRP,Nasher Miles,Nasher Miles,4.1,9,2549.0,12995.0,80,https://www.amazon.in/dp/B0D765JZRP
 B0CGTXDN9N,Nasher Miles,Nasher Miles,4.2,0,3399.0,17995.0,81,https://www.amazon.in/dp/B0CGTXDN9N
 B0DXPNWRM4,Nasher Miles,Nasher Miles,4.0,0,8999.0,47985.0,81,https://www.amazon.in/dp/B0DXPNWRM4
-B0CGTXL5V1,Nasher Miles,Nasher Miles,4.2,0,3489.0,17995.0,81,https://www.amazon.in/dp/B0CGTXL5V1
-B09G71JXVS,Nasher Miles,Nasher Miles,4.3,0,2949.0,15995.0,82,https://www.amazon.in/dp/B09G71JXVS
-B09G715R22,Nasher Miles,Nasher Miles,4.3,0,2998.0,15995.0,81,https://www.amazon.in/dp/B09G715R22
-B0GCZGLLK5,Nasher Miles,Nasher Miles,4.3,0,3089.0,15995.0,81,https://www.amazon.in/dp/B0GCZGLLK5
-B09G72J5Y6,Nasher Miles,Nasher Miles,4.3,0,2699.0,13995.0,81,https://www.amazon.in/dp/B09G72J5Y6
-B0D47KQ81Z,Nasher Miles,Nasher Miles,3.7,0,2749.0,16995.0,84,https://www.amazon.in/dp/B0D47KQ81Z
-B0CGTX3Z86,Nasher Miles,Nasher Miles,4.2,0,2699.0,13995.0,81,https://www.amazon.in/dp/B0CGTX3Z86
-B0D6BS5BGY,Nasher Miles,Nasher Miles,4.3,0,3699.0,16995.0,78,https://www.amazon.in/dp/B0D6BS5BGY
-B094DM58FP,Nasher Miles,Nasher Miles,4.0,0,4999.0,18995.0,74,https://www.amazon.in/dp/B094DM58FP
-B0CGTW6W81,Nasher Miles,Nasher Miles,4.2,0,2989.0,15995.0,81,https://www.amazon.in/dp/B0CGTW6W81
+B0CGTXL5V1,Nasher Miles,Nasher Miles,4.2,9,3489.0,17995.0,81,https://www.amazon.in/dp/B0CGTXL5V1
+B09G71JXVS,Nasher Miles,Nasher Miles,4.3,9,2949.0,15995.0,82,https://www.amazon.in/dp/B09G71JXVS
+B09G715R22,Nasher Miles,Nasher Miles,4.3,9,2998.0,15995.0,81,https://www.amazon.in/dp/B09G715R22
+B0GCZGLLK5,Nasher Miles,Nasher Miles,4.3,9,3089.0,15995.0,81,https://www.amazon.in/dp/B0GCZGLLK5
+B09G72J5Y6,Nasher Miles,Nasher Miles,4.3,9,2699.0,13995.0,81,https://www.amazon.in/dp/B09G72J5Y6
+B0D47KQ81Z,Nasher Miles,Nasher Miles,3.7,10,2749.0,16995.0,84,https://www.amazon.in/dp/B0D47KQ81Z
+B0CGTX3Z86,Nasher Miles,Nasher Miles,4.2,9,2699.0,13995.0,81,https://www.amazon.in/dp/B0CGTX3Z86
+B0D6BS5BGY,Nasher Miles,Nasher Miles,4.3,10,3699.0,16995.0,78,https://www.amazon.in/dp/B0D6BS5BGY
+B094DM58FP,Nasher Miles,Nasher Miles,4.0,9,4999.0,18995.0,74,https://www.amazon.in/dp/B094DM58FP
+B0CGTW6W81,Nasher Miles,Nasher Miles,4.2,9,2989.0,15995.0,81,https://www.amazon.in/dp/B0CGTW6W81
 B0CGTVR451,Nasher Miles,Nasher Miles,4.2,0,3489.0,17995.0,81,https://www.amazon.in/dp/B0CGTVR451

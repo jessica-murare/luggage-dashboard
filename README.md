@@ -27,7 +27,8 @@ The core workflow is: **Scrape → Analyze → Compare → Present**
 - VADER-based sentiment scoring for every review
 - Overall brand sentiment score mapped to a 0–100 scale
 - Aspect-level sentiment extraction for 6 product dimensions: wheels, handle, zipper, material, size, and weight
-- Theme extraction surfacing top positive and negative keywords per brand
+- Theme extraction using unigram, bigram, and trigram analysis with boost scoring for multi-word phrases
+- Per-product review synthesis with sentiment, star distribution, top praise, and top complaint themes
 
 ### Pricing insights
 - Average selling price and MRP per brand
@@ -42,16 +43,21 @@ The core workflow is: **Scrape → Analyze → Compare → Present**
 - Automated flag generation for suspicious patterns
 
 ### Agent insights
-- LLM-generated analysis using Gemini / Groq API
-- 5 non-obvious, decision-ready conclusions per dataset
-- Identifies contradictions, anomalies, and actionable implications across brands
+- 5 data-driven competitive insights computed from brand metrics (sentiment-rating paradox, value vs discount, hidden aspect weaknesses, pricing positioning, trust signal patterns)
+- Context-aware recommendations matched to each insight
+- Falls back to LLM-generated insights via Gemini 2.0 Flash when available
+- Anomaly detection: cross-references aspect sentiment vs ratings, discounts vs value index
+- Risk alert classification with CRITICAL/MODERATE severity levels and visual progress bars
 
 ### Interactive dashboard
 - 4-view React dashboard: Overview, Brand Comparison, Product Drilldown, Agent Insights
-- Plotly charts: bar charts, scatter plots, radar chart for aspect comparison
-- Filters: brand selector, minimum rating, maximum price, sort controls
-- Per-product detail panel with Amazon link
-- Sentiment progress bars and color-coded badges
+- Stitch-designed premium UI with Inter + Manrope typography, Material Symbols icons, and glassmorphism effects
+- Plotly charts: sentiment bar chart, price vs discount scatter, radar chart for aspect comparison
+- Filters: brand toggle pills, minimum rating, sentiment threshold, price range slider, sortable tables
+- Per-product detail card with Amazon link, review synthesis, praise/complaint theme pills
+- Bento-grid layout with animated hover cards and color-coded pill badges
+- Empty state design patterns and recently viewed product carousel
+- Market leader/laggard theme cards on the Overview page
 
 ---
 
@@ -61,9 +67,10 @@ The core workflow is: **Scrape → Analyze → Compare → Present**
 |---|---|
 | Scraping | Python, Playwright |
 | Data processing | Pandas, NLTK (VADER) |
-| LLM integration | Gemini 2.0 Flash / Groq llama3-70b |
-| Frontend | React, Plotly.js, react-plotly.js |
-| Deployment | Vercel |
+| LLM integration | Gemini 2.0 Flash (optional) |
+| Frontend | React 19, Plotly.js, Tailwind CSS (CDN) |
+| Design system | Google Stitch (exported) |
+| Deployment | Vercel (static) |
 
 ---
 
@@ -76,23 +83,26 @@ luggage-dashboard/
 │   ├── save_session.py          # saves Amazon login session for authenticated scraping
 │   └── mock_data.py             # generates realistic fallback dataset
 ├── processing/
-│   ├── analyze.py               # sentiment, aspects, trust signals, value-for-money
-│   └── agent_insights.py        # LLM-generated competitive insights
+│   ├── analyze.py               # sentiment, aspects, themes, trust signals, review synthesis
+│   ├── agent_insights.py        # LLM-generated competitive insights (optional)
+│   └── clean_data.py            # data cleanup: dedup reviews, fix prices, backfill counts
 ├── data/
-│   ├── products.csv             # cleaned product data (90 products, 6 brands)
-│   ├── reviews.csv              # cleaned review data (3,252 real Amazon reviews)
+│   ├── products.csv             # cleaned product data (85 products, 6 brands)
+│   ├── reviews.csv              # cleaned review data (731 reviews)
 │   └── insights.json            # fully processed brand intelligence output
 ├── dashboard/
+│   ├── public/
+│   │   └── index.html           # Tailwind config, Google Fonts, Material Symbols
 │   ├── src/
 │   │   ├── App.js               # root component with sidebar navigation
 │   │   ├── App.css              # global styles
 │   │   ├── data/
 │   │   │   └── insights.json    # copy of processed data for the frontend
 │   │   └── components/
-│   │       ├── Overview.js      # KPI cards, sentiment bar chart, snapshot table
-│   │       ├── BrandComparison.js  # radar chart, bar charts, comparison table
-│   │       ├── ProductDrilldown.js # product list, aspect chart, pros/cons
-│   │       └── AgentInsights.js    # LLM insights, trust signal table
+│   │       ├── Overview.js      # KPI cards, sentiment chart, market snapshot table
+│   │       ├── BrandComparison.js  # radar chart, brand toggles, comparison table
+│   │       ├── ProductDrilldown.js # product catalog, review synthesis, aspect bars
+│   │       └── AgentInsights.js    # computed insights, anomaly detection, trust signals
 │   └── package.json
 ├── .gitignore
 └── README.md
@@ -195,15 +205,25 @@ If scraping is blocked, use the fallback mock dataset:
 python mock_data.py
 ```
 
-### 5. Run the analysis pipeline
+### 5. Clean the data (optional)
 
 ```bash
 cd processing
-python analyze.py
-python agent_insights.py
+python clean_data.py
 ```
 
-### 6. Start the dashboard
+This removes duplicate reviews, drops products with missing prices, and backfills review counts.
+
+### 6. Run the analysis pipeline
+
+```bash
+python analyze.py
+python agent_insights.py   # optional — requires GEMINI_API_KEY
+```
+
+> Note: `agent_insights.py` is optional. The dashboard computes 5 data-driven insights automatically from the processed metrics. Running this script adds LLM-generated insights that take precedence when available.
+
+### 7. Start the dashboard
 
 ```bash
 cp ../data/insights.json ../dashboard/src/data/insights.json
@@ -222,9 +242,10 @@ The dashboard opens at `http://localhost:3000`.
 | Metric | Value |
 |---|---|
 | Brands | 6 (Safari, Skybags, American Tourister, VIP, Aristocrat, Nasher Miles) |
-| Products | 90 (15 per brand) |
-| Reviews | 3,252 real Amazon India reviews |
+| Products | 85 unique products across 6 brands |
+| Reviews | 731 reviews (deduplicated across ASIN variants) |
 | Aspects tracked | 6 (wheels, handle, zipper, material, size, weight) |
+| Theme extraction | Unigram + bigram + trigram with boost scoring |
 
 ---
 
@@ -258,14 +279,17 @@ To deploy your own instance:
 
 ---
 
-## Limitations
+## Known limitations
 
 - Amazon scraping is subject to bot detection and may require re-authentication periodically
 - VADER sentiment is lexicon-based and may miss sarcasm or domain-specific language
 - Aspect extraction uses keyword matching rather than NLP, which can produce false positives
 - Review data reflects a snapshot in time and may not represent current brand performance
 - The value-for-money index uses a simplified normalization and does not account for product category differences
-- Agent insights depend on LLM API availability and free tier rate limits
+- Amazon shows the same review pool for color/size variants, which can cause cross-ASIN duplication — `clean_data.py` deduplicates by (ASIN + title + body) but some shared reviews may persist across variants
+- Some products appear under incorrect brands due to Amazon's cross-brand search results (e.g. FUR JADEN appearing under Safari)
+- Product titles for Safari are truncated to just "Safari" in some listings due to scraper capturing the brand field instead of the full title
+- No luggage category or size classification is scraped — only the product title is available for size identification
 
 ---
 
@@ -282,7 +306,7 @@ To deploy your own instance:
 - Use sentence embeddings to cluster review themes rather than simple keyword frequency
 - Add multilingual support for Hindi reviews which are common on Amazon India
 - Implement time-series sentiment tracking to detect brand reputation trends over months
-- Add anomaly detection to flag products with high ratings despite negative review text
+- ~~Add anomaly detection to flag products with high ratings despite negative review text~~ ✅ Done — anomaly detection cross-references aspect sentiment vs ratings, discounts vs value index
 
 ### Dashboard
 - Add a date range filter to compare brand performance across time periods

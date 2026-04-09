@@ -3,6 +3,7 @@ import re
 import csv
 import os
 from collections import defaultdict, Counter
+from itertools import islice
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # ── Config ─────────────────────────────────────────────────────────────────
@@ -45,32 +46,80 @@ def brand_sentiment_score(reviews: list[dict]) -> float:
     avg = sum(r["compound"] for r in reviews) / len(reviews)
     return round((avg + 1) / 2 * 100, 1)   # -1..1  →  0..100
 
-# ── Theme extraction ───────────────────────────────────────────────────────
+# ── Theme extraction (unigram + bigram + trigram) ──────────────────────────
+
+STOPWORDS = {"i", "me", "my", "we", "our", "you", "your", "he", "she", "it",
+             "its", "they", "them", "this", "that", "these", "those", "is", "am",
+             "are", "was", "were", "be", "been", "being", "have", "has", "had",
+             "do", "does", "did", "will", "would", "shall", "should", "may",
+             "might", "can", "could", "a", "an", "the", "and", "but", "or",
+             "for", "of", "in", "on", "at", "to", "from", "with", "as", "by",
+             "so", "not", "no", "if", "also", "very", "too", "just", "all",
+             "one", "only", "than", "then", "much", "more", "most", "well",
+             "even", "about", "after", "before", "since", "because", "into",
+             "over", "out", "up", "down", "when", "what", "which", "who",
+             "how", "both", "each", "few", "many", "some", "any", "such"}
+
+def _ngrams(words, n):
+    """Yield n-grams from a list of words."""
+    it = iter(words)
+    window = list(islice(it, n))
+    if len(window) == n:
+        yield tuple(window)
+    for w in it:
+        window = window[1:] + [w]
+        yield tuple(window)
+
 
 def extract_themes(reviews: list[dict]) -> dict:
-    """Pull top positive and negative phrases by scanning review text."""
-    pos_words = Counter()
-    neg_words = Counter()
+    """Extract top positive and negative *phrases* (unigram, bigram, trigram)."""
+    pos_phrases = Counter()
+    neg_phrases = Counter()
 
-    positive_markers = ["good", "great", "excellent", "amazing", "love", "perfect",
-                        "smooth", "sturdy", "durable", "spacious", "lightweight",
-                        "quality", "strong", "solid", "nice", "best", "happy"]
-    negative_markers = ["bad", "broke", "broken", "poor", "cheap", "flimsy",
-                        "damaged", "loose", "wobbly", "cracked", "disappointed",
-                        "pathetic", "terrible", "worst", "waste", "defective"]
+    positive_seeds = {"good", "great", "excellent", "amazing", "love", "perfect",
+                      "smooth", "sturdy", "durable", "spacious", "lightweight",
+                      "quality", "strong", "solid", "nice", "best", "happy",
+                      "comfortable", "premium", "value", "worth", "recommend",
+                      "stylish", "elegant", "reliable", "satisfied"}
+    negative_seeds = {"bad", "broke", "broken", "poor", "cheap", "flimsy",
+                      "damaged", "loose", "wobbly", "cracked", "disappointed",
+                      "pathetic", "terrible", "worst", "waste", "defective",
+                      "scratch", "scratches", "missing", "fake", "torn",
+                      "leaked", "refund", "return", "complaint"}
 
     for r in reviews:
         text = r.get("body", "").lower()
-        words = re.findall(r'\b\w+\b', text)
-        for w in words:
-            if w in positive_markers:
-                pos_words[w] += 1
-            if w in negative_markers:
-                neg_words[w] += 1
+        words = [w for w in re.findall(r'\b[a-z]+\b', text) if w not in STOPWORDS and len(w) > 2]
+        compound = r.get("compound", 0)
+
+        for n in (1, 2, 3):
+            for gram in _ngrams(words, n):
+                phrase = " ".join(gram)
+                # Check if any seed word is in the n-gram
+                has_pos = any(s in gram for s in positive_seeds)
+                has_neg = any(s in gram for s in negative_seeds)
+
+                if has_pos and compound > 0.05:
+                    pos_phrases[phrase] += 1
+                elif has_neg and compound < -0.05:
+                    neg_phrases[phrase] += 1
+
+    # Prefer multi-word phrases (boost bigrams/trigrams), filter out very rare
+    def ranked(counter, top_n=5):
+        scored = []
+        for phrase, count in counter.items():
+            if count < 2:
+                continue
+            word_count = len(phrase.split())
+            # Boost multi-word: bigram x1.5, trigram x2.0
+            boost = 1.0 + (word_count - 1) * 0.5
+            scored.append((phrase, count * boost))
+        scored.sort(key=lambda x: -x[1])
+        return [p for p, _ in scored[:top_n]]
 
     return {
-        "top_positives": [w for w, _ in pos_words.most_common(5)],
-        "top_negatives": [w for w, _ in neg_words.most_common(5)],
+        "top_positives": ranked(pos_phrases),
+        "top_negatives": ranked(neg_phrases),
     }
 
 # ── Aspect-level sentiment ─────────────────────────────────────────────────
@@ -169,6 +218,52 @@ def value_for_money(sentiment_score: float, avg_price: float) -> dict:
         "value_index": value_index,   # higher = better value for money
     }
 
+# ── Per-product review synthesis ───────────────────────────────────────────
+
+def product_review_synthesis(asin_reviews: dict, sia: SentimentIntensityAnalyzer) -> dict:
+    """
+    For each product ASIN, generate:
+    - product_sentiment: 0-100 score
+    - top_praise: top 3 positive phrases
+    - top_complaints: top 3 negative phrases  
+    - review_summary: one-line statistical summary
+    """
+    result = {}
+    
+    for asin, reviews in asin_reviews.items():
+        if not reviews:
+            continue
+        
+        # Score reviews
+        scored = []
+        for r in reviews:
+            text = f"{r.get('title', '')} {r.get('body', '')}"
+            comp = sia.polarity_scores(text)["compound"]
+            scored.append({**r, "compound": comp})
+        
+        # Sentiment
+        avg_comp = sum(s["compound"] for s in scored) / len(scored)
+        prod_sentiment = round((avg_comp + 1) / 2 * 100, 1)
+        
+        # Extract themes for this product specifically
+        themes = extract_themes(scored)
+        
+        # Star distribution
+        stars = [float(r.get("stars", 3)) for r in scored]
+        five_star_pct = round(sum(1 for s in stars if s >= 5) / len(stars) * 100)
+        one_star_pct = round(sum(1 for s in stars if s <= 1) / len(stars) * 100)
+        
+        result[asin] = {
+            "sentiment": prod_sentiment,
+            "top_praise": themes["top_positives"][:3],
+            "top_complaints": themes["top_negatives"][:3],
+            "review_count": len(scored),
+            "five_star_pct": five_star_pct,
+            "one_star_pct": one_star_pct,
+        }
+    
+    return result
+
 # ── Main ───────────────────────────────────────────────────────────────────
 
 def main():
@@ -211,11 +306,18 @@ def main():
         trust        = trust_signals(b_reviews)
         vfm          = value_for_money(sentiment, avg_price)
 
-        # Update individual product review counts based on actual reviews found
-        asin_counts = Counter(r.get("asin") for r in b_reviews)
+        # Per-product review synthesis
+        asin_reviews = defaultdict(list)
+        for r in b_reviews:
+            asin_reviews[r.get("asin", "")].append(r)
+        per_product_synthesis = product_review_synthesis(asin_reviews, sia)
+
+        # Update individual product review counts and attach synthesis
         for p in b_products:
-            if "asin" in p:
-                p["review_count"] = asin_counts[p["asin"]]
+            asin = p.get("asin", "")
+            p["review_count"] = len(asin_reviews.get(asin, []))
+            if asin in per_product_synthesis:
+                p["review_synthesis"] = per_product_synthesis[asin]
 
         insights[brand] = {
             "brand": brand,
