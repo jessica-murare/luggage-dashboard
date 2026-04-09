@@ -10,7 +10,7 @@ export default function Overview({ brands }) {
   const sentiment = brands.map(b => b.sentiment_score);
   const prices    = brands.map(b => b.avg_price);
   const discounts = brands.map(b => b.avg_discount_pct);
-  const ratings   = brands.map(b => b.avg_rating);
+  
 
   const COLORS = ['#3b82f6','#10b981','#f59e0b','#ef4444','#8b5cf6','#06b6d4'];
 
