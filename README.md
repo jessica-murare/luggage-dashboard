@@ -306,7 +306,6 @@ To deploy your own instance:
 - Use sentence embeddings to cluster review themes rather than simple keyword frequency
 - Add multilingual support for Hindi reviews which are common on Amazon India
 - Implement time-series sentiment tracking to detect brand reputation trends over months
-- ~~Add anomaly detection to flag products with high ratings despite negative review text~~ ✅ Done — anomaly detection cross-references aspect sentiment vs ratings, discounts vs value index
 
 ### Dashboard
 - Add a date range filter to compare brand performance across time periods
