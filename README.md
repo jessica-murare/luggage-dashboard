@@ -2,7 +2,7 @@
 
 > Competitive intelligence dashboard for luggage brands on Amazon India — built for the Moonshot AI Agent Internship Assignment.
 
-Live demo: [luggage-dashboard.vercel.app](https://luggage-dashboard-idlafg0yg-khushis-projects-23d23acc.vercel.app/)  
+Live demo: [luggage-dashboard.vercel.app](https://luggage-dashboard-one.vercel.app/)  
 GitHub: [github.com/jessica-murare/luggage-dashboard](https://github.com/jessica-murare/luggage-dashboard)
 
 ---
