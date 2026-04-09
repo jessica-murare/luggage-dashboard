@@ -1,43 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#f9f9ff" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Luggage Intelligence Dashboard"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    
+    <title>Insight Curator - Dashboard</title>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-container": "#fffbff",
+                        "on-tertiary": "#ffffff",
+                        "primary": "#0058be",
+                        "surface-dim": "#d3daef",
+                        "on-primary-fixed": "#001a42",
+                        "surface-container-high": "#e1e8fd",
+                        "outline": "#727785",
+                        "surface-variant": "#dce2f7",
+                        "secondary": "#006c49",
+                        "secondary-container": "#6cf8bb",
+                        "tertiary": "#825100",
+                        "primary-fixed-dim": "#adc6ff",
+                        "outline-variant": "#c2c6d6",
+                        "on-tertiary-fixed": "#2a1700",
+                        "tertiary-container": "#a36700",
+                        "on-surface": "#141b2b",
+                        "surface-container-low": "#f1f3ff",
+                        "inverse-surface": "#293040",
+                        "primary-container": "#2170e4",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "primary-fixed": "#d8e2ff",
+                        "on-secondary-fixed": "#002113",
+                        "surface-tint": "#005ac2",
+                        "on-secondary-container": "#00714d",
+                        "surface-container": "#e9edff",
+                        "on-primary-fixed-variant": "#004395",
+                        "surface-bright": "#f9f9ff",
+                        "secondary-fixed": "#6ffbbe",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed-variant": "#005236",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "on-primary-container": "#fefcff",
+                        "on-error-container": "#93000a",
+                        "on-surface-variant": "#424754",
+                        "inverse-on-surface": "#edf0ff",
+                        "inverse-primary": "#adc6ff",
+                        "error": "#ba1a1a",
+                        "surface-container-highest": "#dce2f7",
+                        "tertiary-fixed": "#ffddb8",
+                        "on-primary": "#ffffff",
+                        "surface": "#f9f9ff",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#4edea3",
+                        "background": "#f9f9ff",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#141b2b",
+                        "error-container": "#ffdad6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            },
+        }
+    </script>
   </head>
-  <body>
+  <body class="bg-surface text-on-surface">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

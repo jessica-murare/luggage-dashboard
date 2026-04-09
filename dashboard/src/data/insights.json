@@ -1,41 +1,41 @@
 {
   "Safari": {
     "brand": "Safari",
-    "product_count": 15,
-    "review_count": 528,
-    "avg_price": 3057.6,
-    "avg_mrp": 13041.7,
-    "avg_discount_pct": 70.4,
+    "product_count": 13,
+    "review_count": 123,
+    "avg_price": 3149.0,
+    "avg_mrp": 13352.7,
+    "avg_discount_pct": 75.2,
     "avg_rating": 4.1,
     "sentiment_score": 57.0,
     "themes": {
       "top_positives": [
         "good",
         "quality",
+        "quality good",
         "nice",
-        "sturdy",
-        "smooth"
+        "satisfied"
       ],
       "top_negatives": [
+        "product completely damaged",
+        "completely damaged got",
+        "damaged got hands",
         "broken",
-        "damaged",
-        "poor",
-        "worst",
-        "disappointed"
+        "original want return"
       ]
     },
     "aspect_sentiment": {
       "wheels": 85.8,
       "handle": 31.8,
       "zipper": 50.0,
-      "material": 67.7,
+      "material": 66.9,
       "size": 58.4,
-      "weight": 78.4
+      "weight": 77.2
     },
     "trust_signals": {
-      "verified_pct": 95.5,
-      "rating_skew": 85.6,
-      "repetition_score": 89.2,
+      "verified_pct": 95.9,
+      "rating_skew": 86.2,
+      "repetition_score": 53.7,
       "flags": [
         "Unusual rating distribution (many 5s and 1s)",
         "Repeated review text detected"
@@ -43,7 +43,7 @@
     },
     "value_for_money": {
       "price_band": "mid-range",
-      "value_index": 38.8
+      "value_index": 37.1
     },
     "products": [
       {
@@ -51,22 +51,40 @@
         "brand": "Safari",
         "title": "Safari",
         "rating": "4.2",
-        "review_count": 72,
+        "review_count": 9,
         "price": "1869.0",
         "mrp": "8999.0",
         "discount_pct": "79",
-        "url": "https://www.amazon.in/dp/B097BG27MD"
+        "url": "https://www.amazon.in/dp/B097BG27MD",
+        "review_synthesis": {
+          "sentiment": 57.5,
+          "top_praise": [
+            "good"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 56,
+          "one_star_pct": 22
+        }
       },
       {
         "asin": "B0F9FMQZWN",
         "brand": "Safari",
         "title": "Safari",
         "rating": "4.1",
-        "review_count": 40,
+        "review_count": 10,
         "price": "2099.0",
         "mrp": "8999.0",
         "discount_pct": "77",
-        "url": "https://www.amazon.in/dp/B0F9FMQZWN"
+        "url": "https://www.amazon.in/dp/B0F9FMQZWN",
+        "review_synthesis": {
+          "sentiment": 60.4,
+          "top_praise": [],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 50,
+          "one_star_pct": 10
+        }
       },
       {
         "asin": "B0F67G7R9M",
@@ -106,33 +124,44 @@
         "brand": "Safari",
         "title": "Safari",
         "rating": "4.0",
-        "review_count": 36,
+        "review_count": 9,
         "price": "1999.0",
         "mrp": "8999.0",
         "discount_pct": "78",
-        "url": "https://www.amazon.in/dp/B0FLYJ6H77"
-      },
-      {
-        "asin": "B097BG27MD",
-        "brand": "Safari",
-        "title": "Safari",
-        "rating": "4.2",
-        "review_count": 72,
-        "price": "1869.0",
-        "mrp": "8999.0",
-        "discount_pct": "79",
-        "url": "https://www.amazon.in/dp/B097BG27MD"
+        "url": "https://www.amazon.in/dp/B0FLYJ6H77",
+        "review_synthesis": {
+          "sentiment": 58.6,
+          "top_praise": [
+            "good",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 44,
+          "one_star_pct": 56
+        }
       },
       {
         "asin": "B0F67L3Y72",
         "brand": "Safari",
         "title": "Safari",
         "rating": "4.0",
-        "review_count": 36,
+        "review_count": 9,
         "price": "1999.0",
         "mrp": "8999.0",
         "discount_pct": "78",
-        "url": "https://www.amazon.in/dp/B0F67L3Y72"
+        "url": "https://www.amazon.in/dp/B0F67L3Y72",
+        "review_synthesis": {
+          "sentiment": 58.6,
+          "top_praise": [
+            "good",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 44,
+          "one_star_pct": 56
+        }
       },
       {
         "asin": "B097GR45SS",
@@ -150,113 +179,155 @@
         "brand": "Safari",
         "title": "Safari",
         "rating": "4.2",
-        "review_count": 36,
+        "review_count": 9,
         "price": "1869.0",
         "mrp": "8999.0",
         "discount_pct": "79",
-        "url": "https://www.amazon.in/dp/B097BH338H"
+        "url": "https://www.amazon.in/dp/B097BH338H",
+        "review_synthesis": {
+          "sentiment": 57.5,
+          "top_praise": [
+            "good"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 56,
+          "one_star_pct": 22
+        }
       },
       {
         "asin": "B097JMXLT9",
         "brand": "Safari",
         "title": "Safari",
         "rating": "4.0",
-        "review_count": 40,
+        "review_count": 10,
         "price": "2699.0",
         "mrp": "9800.0",
         "discount_pct": "72",
-        "url": "https://www.amazon.in/dp/B097JMXLT9"
+        "url": "https://www.amazon.in/dp/B097JMXLT9",
+        "review_synthesis": {
+          "sentiment": 49.8,
+          "top_praise": [
+            "good",
+            "good quality",
+            "quality"
+          ],
+          "top_complaints": [
+            "broken"
+          ],
+          "review_count": 10,
+          "five_star_pct": 30,
+          "one_star_pct": 50
+        }
       },
       {
         "asin": "B0FLYJD912",
         "brand": "Safari",
         "title": "Safari",
         "rating": "4.0",
-        "review_count": 36,
+        "review_count": 9,
         "price": "2709.0",
         "mrp": "15998.0",
         "discount_pct": "83",
-        "url": "https://www.amazon.in/dp/B0FLYJD912"
-      },
-      {
-        "asin": "B097BHHCLF",
-        "brand": "Safari",
-        "title": "Safari",
-        "rating": "4.2",
-        "review_count": 36,
-        "price": "4199.0",
-        "mrp": "19998.0",
-        "discount_pct": "79",
-        "url": "https://www.amazon.in/dp/B097BHHCLF"
+        "url": "https://www.amazon.in/dp/B0FLYJD912",
+        "review_synthesis": {
+          "sentiment": 58.6,
+          "top_praise": [
+            "good",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 44,
+          "one_star_pct": 56
+        }
       },
       {
         "asin": "B097B45LDH",
         "brand": "Safari",
         "title": "Safari",
         "rating": "4.1",
-        "review_count": 40,
+        "review_count": 10,
         "price": "3099.0",
         "mrp": "12999.0",
         "discount_pct": "76",
-        "url": "https://www.amazon.in/dp/B097B45LDH"
+        "url": "https://www.amazon.in/dp/B097B45LDH",
+        "review_synthesis": {
+          "sentiment": 59.3,
+          "top_praise": [
+            "good",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 50,
+          "one_star_pct": 40
+        }
       },
       {
         "asin": "B097JLP1SV",
         "brand": "Safari",
         "title": "Safari",
         "rating": "4.0",
-        "review_count": 40,
+        "review_count": 10,
         "price": "2699.0",
         "mrp": "9800.0",
         "discount_pct": "72",
-        "url": "https://www.amazon.in/dp/B097JLP1SV"
+        "url": "https://www.amazon.in/dp/B097JLP1SV",
+        "review_synthesis": {
+          "sentiment": 49.8,
+          "top_praise": [
+            "good",
+            "good quality",
+            "quality"
+          ],
+          "top_complaints": [
+            "broken"
+          ],
+          "review_count": 10,
+          "five_star_pct": 30,
+          "one_star_pct": 50
+        }
       }
-    ],
-    "agent_insights": [
-      "Skybags Dominates Budget Value but Faces Defect Risks. Despite having the lowest average price besides Aristocrat (₹2,476), Skybags claims the highest sentiment score (70.8) and best value index (67.1), punching well above its weight. However, top negatives like \"defective\" and \"broken\" suggest inconsistent quality control.",
-      "Nasher Miles Employs Aggressive Fake Pricing. Nasher Miles has the highest average discount at 80.5% but maintains a mid-range average selling price (₹3,616). This indicates heavily inflated MRPs to create a false sense of steep discounting, though it still manages a strong sentiment score (67.7).",
-      "VIP's Premium Positioning Doesn't Translate to Premium Perception. As the most expensive brand (₹4,412), VIP yields the lowest value-for-money index (27.5). Furthermore, its top negative themes explicitly contradict its premium price point, indicating a severe misalignment in customer expectations.",
-      "Safari Suffers a Disconnect Between Rating and Sentiment. Safari maintains an acceptable 4.1 average rating, but its actual sentiment score plunges to an abysmal 57.0 (the lowest of all brands). This reveals that while customers may casually leave 4-star ratings, their written reviews expose significant structural dissatisfaction.",
-      "Aristocrat Competes on Price Without Sacrificing Goodwill. Aristocrat is the cheapest brand overall (₹2,021) yet maintains an identical 4.2 rating as its premium competitors and a respectable sentiment score (64.6). Its value index directly challenges mid-range brands, making it a formidable disruptor in the budget tier."
     ]
   },
   "Skybags": {
     "brand": "Skybags",
     "product_count": 15,
-    "review_count": 592,
+    "review_count": 117,
     "avg_price": 2476.7,
     "avg_mrp": 7564.6,
     "avg_discount_pct": 67.7,
     "avg_rating": 4.2,
-    "sentiment_score": 70.8,
+    "sentiment_score": 72.4,
     "themes": {
       "top_positives": [
         "good",
         "quality",
-        "nice",
-        "durable",
-        "great"
+        "good product",
+        "good quality",
+        "product good"
       ],
       "top_negatives": [
         "bad",
-        "defective",
-        "broken",
-        "poor",
-        "waste"
+        "received totally defective",
+        "totally defective bad",
+        "suitcase box return",
+        "box return gave"
       ]
     },
     "aspect_sentiment": {
-      "wheels": 70.9,
-      "handle": 56.0,
+      "wheels": 80.6,
+      "handle": 60.2,
       "zipper": 75.5,
-      "material": 74.9,
-      "size": 70.7,
+      "material": 75.3,
+      "size": 75.7,
       "weight": 86.3
     },
     "trust_signals": {
-      "verified_pct": 99.3,
-      "rating_skew": 75.7,
-      "repetition_score": 85.1,
+      "verified_pct": 99.1,
+      "rating_skew": 72.6,
+      "repetition_score": 33.3,
       "flags": [
         "Unusual rating distribution (many 5s and 1s)",
         "Repeated review text detected"
@@ -264,7 +335,7 @@
     },
     "value_for_money": {
       "price_band": "budget",
-      "value_index": 67.1
+      "value_index": 68.6
     },
     "products": [
       {
@@ -272,18 +343,30 @@
         "brand": "Skybags",
         "title": "FUR JADEN",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 10,
         "price": "7999.0",
         "mrp": "13000.0",
         "discount_pct": "38",
-        "url": "https://www.amazon.in/dp/B0DSJGQYGD"
+        "url": "https://www.amazon.in/dp/B0DSJGQYGD",
+        "review_synthesis": {
+          "sentiment": 75.7,
+          "top_praise": [
+            "good",
+            "quality",
+            "durable"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 80,
+          "one_star_pct": 10
+        }
       },
       {
         "asin": "B097JLP1SV",
         "brand": "Skybags",
         "title": "Safari",
         "rating": "4.0",
-        "review_count": 40,
+        "review_count": 0,
         "price": "2699.0",
         "mrp": "9800.0",
         "discount_pct": "72",
@@ -316,77 +399,158 @@
         "brand": "Skybags",
         "title": "Skybags",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 10,
         "price": "3099.0",
         "mrp": "9050.0",
         "discount_pct": "66",
-        "url": "https://www.amazon.in/dp/B07HCRSLFY"
+        "url": "https://www.amazon.in/dp/B07HCRSLFY",
+        "review_synthesis": {
+          "sentiment": 77.9,
+          "top_praise": [
+            "good",
+            "good product",
+            "good quality"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B0C8ZD8KNP",
         "brand": "Skybags",
         "title": "Skybags",
         "rating": "4.2",
-        "review_count": 80,
+        "review_count": 10,
         "price": "2699.0",
         "mrp": "9100.0",
         "discount_pct": "70",
-        "url": "https://www.amazon.in/dp/B0C8ZD8KNP"
+        "url": "https://www.amazon.in/dp/B0C8ZD8KNP",
+        "review_synthesis": {
+          "sentiment": 65.6,
+          "top_praise": [
+            "good"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 70,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B073JSGMRS",
         "brand": "Skybags",
         "title": "Skybags",
         "rating": "4.2",
-        "review_count": 40,
+        "review_count": 9,
         "price": "1089.0",
         "mrp": "4620.0",
         "discount_pct": "76",
-        "url": "https://www.amazon.in/dp/B073JSGMRS"
+        "url": "https://www.amazon.in/dp/B073JSGMRS",
+        "review_synthesis": {
+          "sentiment": 70.7,
+          "top_praise": [
+            "good",
+            "durable",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 44,
+          "one_star_pct": 11
+        }
       },
       {
         "asin": "B0C8ZY4579",
         "brand": "Skybags",
         "title": "Skybags",
         "rating": "4.2",
-        "review_count": 80,
+        "review_count": 10,
         "price": "1649.0",
         "mrp": "4450.0",
         "discount_pct": "63",
-        "url": "https://www.amazon.in/dp/B0C8ZY4579"
+        "url": "https://www.amazon.in/dp/B0C8ZY4579",
+        "review_synthesis": {
+          "sentiment": 76.8,
+          "top_praise": [
+            "good",
+            "good quality",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 70,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B0CPSW5WJ5",
         "brand": "Skybags",
         "title": "Skybags",
         "rating": "4.4",
-        "review_count": 40,
+        "review_count": 10,
         "price": "1699.0",
         "mrp": "7060.0",
         "discount_pct": "76",
-        "url": "https://www.amazon.in/dp/B0CPSW5WJ5"
+        "url": "https://www.amazon.in/dp/B0CPSW5WJ5",
+        "review_synthesis": {
+          "sentiment": 68.0,
+          "top_praise": [
+            "good",
+            "good product"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 0
+        }
       },
       {
         "asin": "B073JYDK7P",
         "brand": "Skybags",
         "title": "Skybags",
         "rating": "4.2",
-        "review_count": 40,
+        "review_count": 10,
         "price": "791.9",
         "mrp": "2230.0",
         "discount_pct": "64",
-        "url": "https://www.amazon.in/dp/B073JYDK7P"
+        "url": "https://www.amazon.in/dp/B073JYDK7P",
+        "review_synthesis": {
+          "sentiment": 62.2,
+          "top_praise": [
+            "good",
+            "quality",
+            "amazing"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 20,
+          "one_star_pct": 30
+        }
       },
       {
         "asin": "B0D919CMLP",
         "brand": "Skybags",
         "title": "Skybags",
         "rating": "4.3",
-        "review_count": 32,
+        "review_count": 8,
         "price": "899.0",
         "mrp": "3000.0",
         "discount_pct": "70",
-        "url": "https://www.amazon.in/dp/B0D919CMLP"
+        "url": "https://www.amazon.in/dp/B0D919CMLP",
+        "review_synthesis": {
+          "sentiment": 74.6,
+          "top_praise": [
+            "quality",
+            "excellent",
+            "good"
+          ],
+          "top_complaints": [],
+          "review_count": 8,
+          "five_star_pct": 75,
+          "one_star_pct": 0
+        }
       },
       {
         "asin": "B073JZ9QGR",
@@ -404,11 +568,22 @@
         "brand": "Skybags",
         "title": "Skybags",
         "rating": "4.4",
-        "review_count": 40,
+        "review_count": 10,
         "price": "1959.0",
         "mrp": "7060.0",
         "discount_pct": "72",
-        "url": "https://www.amazon.in/dp/B0CPSSB4BN"
+        "url": "https://www.amazon.in/dp/B0CPSSB4BN",
+        "review_synthesis": {
+          "sentiment": 68.0,
+          "top_praise": [
+            "good",
+            "good product"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 0
+        }
       },
       {
         "asin": "B0G6F1SC7T",
@@ -426,58 +601,61 @@
         "brand": "Skybags",
         "title": "Skybags",
         "rating": "4.2",
-        "review_count": 40,
+        "review_count": 10,
         "price": "2399.0",
         "mrp": "6825.0",
         "discount_pct": "65",
-        "url": "https://www.amazon.in/dp/B0D9P1LQ13"
+        "url": "https://www.amazon.in/dp/B0D9P1LQ13",
+        "review_synthesis": {
+          "sentiment": 65.6,
+          "top_praise": [
+            "good"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 70,
+          "one_star_pct": 20
+        }
       }
-    ],
-    "agent_insights": [
-      "Skybags Dominates Budget Value but Faces Defect Risks. Despite having the lowest average price besides Aristocrat (₹2,476), Skybags claims the highest sentiment score (70.8) and best value index (67.1), punching well above its weight. However, top negatives like \"defective\" and \"broken\" suggest inconsistent quality control.",
-      "Nasher Miles Employs Aggressive Fake Pricing. Nasher Miles has the highest average discount at 80.5% but maintains a mid-range average selling price (₹3,616). This indicates heavily inflated MRPs to create a false sense of steep discounting, though it still manages a strong sentiment score (67.7).",
-      "VIP's Premium Positioning Doesn't Translate to Premium Perception. As the most expensive brand (₹4,412), VIP yields the lowest value-for-money index (27.5). Furthermore, its top negative themes explicitly contradict its premium price point, indicating a severe misalignment in customer expectations.",
-      "Safari Suffers a Disconnect Between Rating and Sentiment. Safari maintains an acceptable 4.1 average rating, but its actual sentiment score plunges to an abysmal 57.0 (the lowest of all brands). This reveals that while customers may casually leave 4-star ratings, their written reviews expose significant structural dissatisfaction.",
-      "Aristocrat Competes on Price Without Sacrificing Goodwill. Aristocrat is the cheapest brand overall (₹2,021) yet maintains an identical 4.2 rating as its premium competitors and a respectable sentiment score (64.6). Its value index directly challenges mid-range brands, making it a formidable disruptor in the budget tier."
     ]
   },
   "American Tourister": {
     "brand": "American Tourister",
-    "product_count": 15,
-    "review_count": 532,
-    "avg_price": 3760.8,
-    "avg_mrp": 9044.0,
-    "avg_discount_pct": 56.9,
+    "product_count": 14,
+    "review_count": 124,
+    "avg_price": 3847.4,
+    "avg_mrp": 9083.6,
+    "avg_discount_pct": 55.9,
     "avg_rating": 4.2,
-    "sentiment_score": 65.1,
+    "sentiment_score": 66.1,
     "themes": {
       "top_positives": [
         "good",
         "quality",
         "nice",
-        "great",
-        "amazing"
+        "good product",
+        "product good"
       ],
       "top_negatives": [
-        "disappointed",
-        "bad",
-        "worst",
-        "poor",
-        "broke"
+        "return",
+        "handle quality worst",
+        "quality worst please",
+        "worst please check",
+        "check last return"
       ]
     },
     "aspect_sentiment": {
       "wheels": 86.6,
-      "handle": 58.0,
+      "handle": 62.4,
       "zipper": 61.9,
-      "material": 62.7,
-      "size": 60.8,
+      "material": 64.7,
+      "size": 64.8,
       "weight": 61.9
     },
     "trust_signals": {
-      "verified_pct": 97.0,
-      "rating_skew": 71.4,
-      "repetition_score": 84.2,
+      "verified_pct": 97.6,
+      "rating_skew": 71.8,
+      "repetition_score": 32.3,
       "flags": [
         "Unusual rating distribution (many 5s and 1s)",
         "Repeated review text detected"
@@ -485,7 +663,7 @@
     },
     "value_for_money": {
       "price_band": "mid-range",
-      "value_index": 33.0
+      "value_index": 32.5
     },
     "products": [
       {
@@ -493,55 +671,91 @@
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.1",
-        "review_count": 36,
+        "review_count": 9,
         "price": "3799.0",
         "mrp": "9800.0",
         "discount_pct": "61",
-        "url": "https://www.amazon.in/dp/B0F5HL713C"
+        "url": "https://www.amazon.in/dp/B0F5HL713C",
+        "review_synthesis": {
+          "sentiment": 59.8,
+          "top_praise": [
+            "quality"
+          ],
+          "top_complaints": [
+            "return"
+          ],
+          "review_count": 9,
+          "five_star_pct": 22,
+          "one_star_pct": 33
+        }
       },
       {
         "asin": "B09RPLYFXJ",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.2",
-        "review_count": 72,
+        "review_count": 9,
         "price": "2549.0",
         "mrp": "8490.0",
         "discount_pct": "70",
-        "url": "https://www.amazon.in/dp/B09RPLYFXJ"
+        "url": "https://www.amazon.in/dp/B09RPLYFXJ",
+        "review_synthesis": {
+          "sentiment": 50.3,
+          "top_praise": [
+            "good",
+            "product good"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 33,
+          "one_star_pct": 33
+        }
       },
       {
         "asin": "B0FFBLNH3N",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.1",
-        "review_count": 24,
+        "review_count": 6,
         "price": "5049.0",
         "mrp": "8450.0",
         "discount_pct": "40",
-        "url": "https://www.amazon.in/dp/B0FFBLNH3N"
+        "url": "https://www.amazon.in/dp/B0FFBLNH3N",
+        "review_synthesis": {
+          "sentiment": 84.7,
+          "top_praise": [
+            "good",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 6,
+          "five_star_pct": 83,
+          "one_star_pct": 17
+        }
       },
       {
         "asin": "B0DSBS281B",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.1",
-        "review_count": 40,
+        "review_count": 10,
         "price": "6787.0",
         "mrp": "9050.0",
         "discount_pct": "25",
-        "url": "https://www.amazon.in/dp/B0DSBS281B"
-      },
-      {
-        "asin": "B09RPLYFXJ",
-        "brand": "American Tourister",
-        "title": "American Tourister",
-        "rating": "4.2",
-        "review_count": 72,
-        "price": "2549.0",
-        "mrp": "8490.0",
-        "discount_pct": "70",
-        "url": "https://www.amazon.in/dp/B09RPLYFXJ"
+        "url": "https://www.amazon.in/dp/B0DSBS281B",
+        "review_synthesis": {
+          "sentiment": 49.9,
+          "top_praise": [
+            "good"
+          ],
+          "top_complaints": [
+            "damaged",
+            "return"
+          ],
+          "review_count": 10,
+          "five_star_pct": 40,
+          "one_star_pct": 40
+        }
       },
       {
         "asin": "B0CW9T2Y43",
@@ -559,146 +773,246 @@
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.2",
-        "review_count": 28,
+        "review_count": 7,
         "price": "3099.0",
         "mrp": "8450.0",
         "discount_pct": "63",
-        "url": "https://www.amazon.in/dp/B0F5HKFPWR"
+        "url": "https://www.amazon.in/dp/B0F5HKFPWR",
+        "review_synthesis": {
+          "sentiment": 76.9,
+          "top_praise": [
+            "good",
+            "nice",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 7,
+          "five_star_pct": 71,
+          "one_star_pct": 0
+        }
       },
       {
         "asin": "B0F5HGLC5Q",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.1",
-        "review_count": 36,
+        "review_count": 9,
         "price": "2799.0",
         "mrp": "7500.0",
         "discount_pct": "63",
-        "url": "https://www.amazon.in/dp/B0F5HGLC5Q"
+        "url": "https://www.amazon.in/dp/B0F5HGLC5Q",
+        "review_synthesis": {
+          "sentiment": 59.8,
+          "top_praise": [
+            "quality"
+          ],
+          "top_complaints": [
+            "return"
+          ],
+          "review_count": 9,
+          "five_star_pct": 22,
+          "one_star_pct": 33
+        }
       },
       {
         "asin": "B0CW9VLDKD",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.2",
-        "review_count": 40,
+        "review_count": 10,
         "price": "3999.0",
         "mrp": "10500.0",
         "discount_pct": "62",
-        "url": "https://www.amazon.in/dp/B0CW9VLDKD"
+        "url": "https://www.amazon.in/dp/B0CW9VLDKD",
+        "review_synthesis": {
+          "sentiment": 63.9,
+          "top_praise": [
+            "good",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 30
+        }
       },
       {
         "asin": "B0F5HM58RR",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.1",
-        "review_count": 36,
+        "review_count": 9,
         "price": "3799.0",
         "mrp": "9800.0",
         "discount_pct": "61",
-        "url": "https://www.amazon.in/dp/B0F5HM58RR"
+        "url": "https://www.amazon.in/dp/B0F5HM58RR",
+        "review_synthesis": {
+          "sentiment": 59.8,
+          "top_praise": [
+            "quality"
+          ],
+          "top_complaints": [
+            "return"
+          ],
+          "review_count": 9,
+          "five_star_pct": 22,
+          "one_star_pct": 33
+        }
       },
       {
         "asin": "B0F5HQQ361",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.2",
-        "review_count": 28,
+        "review_count": 7,
         "price": "3599.0",
         "mrp": "9950.0",
         "discount_pct": "64",
-        "url": "https://www.amazon.in/dp/B0F5HQQ361"
+        "url": "https://www.amazon.in/dp/B0F5HQQ361",
+        "review_synthesis": {
+          "sentiment": 76.9,
+          "top_praise": [
+            "good",
+            "nice",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 7,
+          "five_star_pct": 71,
+          "one_star_pct": 0
+        }
       },
       {
         "asin": "B0D62PN1J9",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 10,
         "price": "3899.0",
         "mrp": "10890.0",
         "discount_pct": "64",
-        "url": "https://www.amazon.in/dp/B0D62PN1J9"
+        "url": "https://www.amazon.in/dp/B0D62PN1J9",
+        "review_synthesis": {
+          "sentiment": 77.5,
+          "top_praise": [
+            "good",
+            "good product",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 10
+        }
       },
       {
         "asin": "B0F5HLY8ND",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.1",
-        "review_count": 36,
+        "review_count": 9,
         "price": "5299.0",
         "mrp": "14600.0",
         "discount_pct": "64",
-        "url": "https://www.amazon.in/dp/B0F5HLY8ND"
+        "url": "https://www.amazon.in/dp/B0F5HLY8ND",
+        "review_synthesis": {
+          "sentiment": 70.2,
+          "top_praise": [
+            "good",
+            "nice product",
+            "nice"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 44,
+          "one_star_pct": 22
+        }
       },
       {
         "asin": "B073XL1C3W",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.2",
-        "review_count": 40,
+        "review_count": 10,
         "price": "2299.0",
         "mrp": "7500.0",
         "discount_pct": "69",
-        "url": "https://www.amazon.in/dp/B073XL1C3W"
+        "url": "https://www.amazon.in/dp/B073XL1C3W",
+        "review_synthesis": {
+          "sentiment": 72.9,
+          "top_praise": [
+            "good",
+            "nice",
+            "great"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 70,
+          "one_star_pct": 0
+        }
       },
       {
         "asin": "B0CHRL351K",
         "brand": "American Tourister",
         "title": "American Tourister",
         "rating": "4.5",
-        "review_count": 36,
+        "review_count": 9,
         "price": "4088.0",
         "mrp": "4800.0",
         "discount_pct": "15",
-        "url": "https://www.amazon.in/dp/B0CHRL351K"
+        "url": "https://www.amazon.in/dp/B0CHRL351K",
+        "review_synthesis": {
+          "sentiment": 70.4,
+          "top_praise": [
+            "good",
+            "quality",
+            "nice"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 56,
+          "one_star_pct": 11
+        }
       }
-    ],
-    "agent_insights": [
-      "Skybags Dominates Budget Value but Faces Defect Risks. Despite having the lowest average price besides Aristocrat (₹2,476), Skybags claims the highest sentiment score (70.8) and best value index (67.1), punching well above its weight. However, top negatives like \"defective\" and \"broken\" suggest inconsistent quality control.",
-      "Nasher Miles Employs Aggressive Fake Pricing. Nasher Miles has the highest average discount at 80.5% but maintains a mid-range average selling price (₹3,616). This indicates heavily inflated MRPs to create a false sense of steep discounting, though it still manages a strong sentiment score (67.7).",
-      "VIP's Premium Positioning Doesn't Translate to Premium Perception. As the most expensive brand (₹4,412), VIP yields the lowest value-for-money index (27.5). Furthermore, its top negative themes explicitly contradict its premium price point, indicating a severe misalignment in customer expectations.",
-      "Safari Suffers a Disconnect Between Rating and Sentiment. Safari maintains an acceptable 4.1 average rating, but its actual sentiment score plunges to an abysmal 57.0 (the lowest of all brands). This reveals that while customers may casually leave 4-star ratings, their written reviews expose significant structural dissatisfaction.",
-      "Aristocrat Competes on Price Without Sacrificing Goodwill. Aristocrat is the cheapest brand overall (₹2,021) yet maintains an identical 4.2 rating as its premium competitors and a respectable sentiment score (64.6). Its value index directly challenges mid-range brands, making it a formidable disruptor in the budget tier."
     ]
   },
   "VIP": {
     "brand": "VIP",
-    "product_count": 15,
-    "review_count": 472,
-    "avg_price": 4412.8,
-    "avg_mrp": 13211.5,
-    "avg_discount_pct": 66.6,
+    "product_count": 14,
+    "review_count": 105,
+    "avg_price": 4178.0,
+    "avg_mrp": 12928.0,
+    "avg_discount_pct": 67.4,
     "avg_rating": 4.2,
-    "sentiment_score": 67.0,
+    "sentiment_score": 66.3,
     "themes": {
       "top_positives": [
         "good",
         "quality",
-        "durable",
-        "sturdy",
-        "nice"
+        "good quality",
+        "nice",
+        "good product"
       ],
       "top_negatives": [
         "bad",
-        "broken",
-        "cheap",
-        "flimsy",
-        "worst"
+        "boy behevior bad",
+        "behevior bad",
+        "order return delivery",
+        "return delivery boy"
       ]
     },
     "aspect_sentiment": {
-      "wheels": 82.4,
+      "wheels": 74.2,
       "handle": 59.9,
-      "zipper": 58.8,
-      "material": 64.1,
-      "size": 74.7,
-      "weight": 80.0
+      "zipper": 51.2,
+      "material": 61.8,
+      "size": 71.3,
+      "weight": 74.8
     },
     "trust_signals": {
-      "verified_pct": 94.9,
-      "rating_skew": 72.0,
-      "repetition_score": 81.6,
+      "verified_pct": 95.2,
+      "rating_skew": 71.4,
+      "repetition_score": 26.7,
       "flags": [
         "Unusual rating distribution (many 5s and 1s)",
         "Repeated review text detected"
@@ -706,7 +1020,7 @@
     },
     "value_for_money": {
       "price_band": "mid-range",
-      "value_index": 27.5
+      "value_index": 29.2
     },
     "products": [
       {
@@ -714,18 +1028,26 @@
         "brand": "VIP",
         "title": "VIP",
         "rating": "4.4",
-        "review_count": 24,
+        "review_count": 3,
         "price": "7700.0",
         "mrp": "17180.0",
         "discount_pct": "55",
-        "url": "https://www.amazon.in/dp/B0F4K9VLQ8"
+        "url": "https://www.amazon.in/dp/B0F4K9VLQ8",
+        "review_synthesis": {
+          "sentiment": 64.9,
+          "top_praise": [],
+          "top_complaints": [],
+          "review_count": 3,
+          "five_star_pct": 33,
+          "one_star_pct": 0
+        }
       },
       {
         "asin": "B0DSJGQYGD",
         "brand": "VIP",
         "title": "FUR JADEN",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 0,
         "price": "7999.0",
         "mrp": "13000.0",
         "discount_pct": "38",
@@ -747,121 +1069,222 @@
         "brand": "VIP",
         "title": "Provogue",
         "rating": "3.6",
-        "review_count": 40,
+        "review_count": 10,
         "price": "4099.0",
         "mrp": "9749.0",
         "discount_pct": "58",
-        "url": "https://www.amazon.in/dp/B0GH8DFNY9"
+        "url": "https://www.amazon.in/dp/B0GH8DFNY9",
+        "review_synthesis": {
+          "sentiment": 78.6,
+          "top_praise": [],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 70,
+          "one_star_pct": 10
+        }
       },
       {
         "asin": "B0CBTZP3CL",
         "brand": "VIP",
         "title": "VIP",
         "rating": "3.7",
-        "review_count": 28,
+        "review_count": 7,
         "price": "3029.0",
         "mrp": "10200.0",
         "discount_pct": "70",
-        "url": "https://www.amazon.in/dp/B0CBTZP3CL"
+        "url": "https://www.amazon.in/dp/B0CBTZP3CL",
+        "review_synthesis": {
+          "sentiment": 58.0,
+          "top_praise": [
+            "quality",
+            "good"
+          ],
+          "top_complaints": [],
+          "review_count": 7,
+          "five_star_pct": 29,
+          "one_star_pct": 14
+        }
       },
       {
         "asin": "B0D4RD23TM",
         "brand": "VIP",
         "title": "VIP",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 10,
         "price": "3270.0",
         "mrp": "12600.0",
         "discount_pct": "74",
-        "url": "https://www.amazon.in/dp/B0D4RD23TM"
+        "url": "https://www.amazon.in/dp/B0D4RD23TM",
+        "review_synthesis": {
+          "sentiment": 69.9,
+          "top_praise": [],
+          "top_complaints": [
+            "boy behevior bad",
+            "bad",
+            "behevior bad"
+          ],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B0GQF3J624",
         "brand": "VIP",
         "title": "VIP",
         "rating": "3.7",
-        "review_count": 28,
+        "review_count": 7,
         "price": "4399.0",
         "mrp": "12100.0",
         "discount_pct": "64",
-        "url": "https://www.amazon.in/dp/B0GQF3J624"
+        "url": "https://www.amazon.in/dp/B0GQF3J624",
+        "review_synthesis": {
+          "sentiment": 58.0,
+          "top_praise": [
+            "quality",
+            "good"
+          ],
+          "top_complaints": [],
+          "review_count": 7,
+          "five_star_pct": 29,
+          "one_star_pct": 14
+        }
       },
       {
         "asin": "B0DDLDXT8N",
         "brand": "VIP",
         "title": "VIP",
         "rating": "4.1",
-        "review_count": 40,
+        "review_count": 10,
         "price": "6339.0",
         "mrp": "19998.0",
         "discount_pct": "68",
-        "url": "https://www.amazon.in/dp/B0DDLDXT8N"
+        "url": "https://www.amazon.in/dp/B0DDLDXT8N",
+        "review_synthesis": {
+          "sentiment": 63.3,
+          "top_praise": [
+            "good",
+            "good product",
+            "best quality"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 50,
+          "one_star_pct": 30
+        }
       },
       {
         "asin": "B0D4RDWVKY",
         "brand": "VIP",
         "title": "VIP",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 10,
         "price": "3379.0",
         "mrp": "12600.0",
         "discount_pct": "73",
-        "url": "https://www.amazon.in/dp/B0D4RDWVKY"
+        "url": "https://www.amazon.in/dp/B0D4RDWVKY",
+        "review_synthesis": {
+          "sentiment": 69.9,
+          "top_praise": [],
+          "top_complaints": [
+            "boy behevior bad",
+            "bad",
+            "behevior bad"
+          ],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B0D4RYN3GR",
         "brand": "VIP",
         "title": "VIP",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 10,
         "price": "2719.0",
         "mrp": "10090.0",
         "discount_pct": "73",
-        "url": "https://www.amazon.in/dp/B0D4RYN3GR"
+        "url": "https://www.amazon.in/dp/B0D4RYN3GR",
+        "review_synthesis": {
+          "sentiment": 69.9,
+          "top_praise": [],
+          "top_complaints": [
+            "boy behevior bad",
+            "bad",
+            "behevior bad"
+          ],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B0FPXMYQZY",
         "brand": "VIP",
         "title": "Aristocrat",
         "rating": "4.0",
-        "review_count": 36,
+        "review_count": 9,
         "price": "5609.0",
         "mrp": "25880.0",
         "discount_pct": "78",
-        "url": "https://www.amazon.in/dp/B0FPXMYQZY"
+        "url": "https://www.amazon.in/dp/B0FPXMYQZY",
+        "review_synthesis": {
+          "sentiment": 32.2,
+          "top_praise": [],
+          "top_complaints": [
+            "got damaged",
+            "quality bad",
+            "worst"
+          ],
+          "review_count": 9,
+          "five_star_pct": 11,
+          "one_star_pct": 56
+        }
       },
       {
         "asin": "B0CBTXMRKF",
         "brand": "VIP",
         "title": "VIP",
         "rating": "4.8",
-        "review_count": 20,
+        "review_count": 5,
         "price": "3990.0",
         "mrp": "14990.0",
         "discount_pct": "73",
-        "url": "https://www.amazon.in/dp/B0CBTXMRKF"
+        "url": "https://www.amazon.in/dp/B0CBTXMRKF",
+        "review_synthesis": {
+          "sentiment": 79.1,
+          "top_praise": [
+            "good"
+          ],
+          "top_complaints": [],
+          "review_count": 5,
+          "five_star_pct": 80,
+          "one_star_pct": 0
+        }
       },
       {
         "asin": "B073JWDLXZ",
         "brand": "VIP",
         "title": "Skybags",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 10,
         "price": "2499.0",
         "mrp": "7790.0",
         "discount_pct": "68",
-        "url": "https://www.amazon.in/dp/B073JWDLXZ"
-      },
-      {
-        "asin": "B0F4K9VLQ8",
-        "brand": "VIP",
-        "title": "VIP",
-        "rating": "4.4",
-        "review_count": 24,
-        "price": "7700.0",
-        "mrp": "17180.0",
-        "discount_pct": "55",
-        "url": "https://www.amazon.in/dp/B0F4K9VLQ8"
+        "url": "https://www.amazon.in/dp/B073JWDLXZ",
+        "review_synthesis": {
+          "sentiment": 77.9,
+          "top_praise": [
+            "good",
+            "good product",
+            "good quality"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B0C8ZFXCB6",
@@ -874,51 +1297,45 @@
         "discount_pct": "70",
         "url": "https://www.amazon.in/dp/B0C8ZFXCB6"
       }
-    ],
-    "agent_insights": [
-      "Skybags Dominates Budget Value but Faces Defect Risks. Despite having the lowest average price besides Aristocrat (₹2,476), Skybags claims the highest sentiment score (70.8) and best value index (67.1), punching well above its weight. However, top negatives like \"defective\" and \"broken\" suggest inconsistent quality control.",
-      "Nasher Miles Employs Aggressive Fake Pricing. Nasher Miles has the highest average discount at 80.5% but maintains a mid-range average selling price (₹3,616). This indicates heavily inflated MRPs to create a false sense of steep discounting, though it still manages a strong sentiment score (67.7).",
-      "VIP's Premium Positioning Doesn't Translate to Premium Perception. As the most expensive brand (₹4,412), VIP yields the lowest value-for-money index (27.5). Furthermore, its top negative themes explicitly contradict its premium price point, indicating a severe misalignment in customer expectations.",
-      "Safari Suffers a Disconnect Between Rating and Sentiment. Safari maintains an acceptable 4.1 average rating, but its actual sentiment score plunges to an abysmal 57.0 (the lowest of all brands). This reveals that while customers may casually leave 4-star ratings, their written reviews expose significant structural dissatisfaction.",
-      "Aristocrat Competes on Price Without Sacrificing Goodwill. Aristocrat is the cheapest brand overall (₹2,021) yet maintains an identical 4.2 rating as its premium competitors and a respectable sentiment score (64.6). Its value index directly challenges mid-range brands, making it a formidable disruptor in the budget tier."
     ]
   },
   "Aristocrat": {
     "brand": "Aristocrat",
-    "product_count": 15,
-    "review_count": 584,
-    "avg_price": 2021.7,
-    "avg_mrp": 9932.7,
-    "avg_discount_pct": 79.1,
+    "product_count": 14,
+    "review_count": 126,
+    "avg_price": 1979.7,
+    "avg_mrp": 9839.3,
+    "avg_discount_pct": 79.3,
     "avg_rating": 4.2,
-    "sentiment_score": 64.6,
+    "sentiment_score": 65.3,
     "themes": {
       "top_positives": [
         "good",
         "quality",
-        "durable",
-        "sturdy",
-        "nice"
+        "good product",
+        "value money",
+        "durable"
       ],
       "top_negatives": [
-        "poor",
-        "bad",
-        "damaged",
-        "loose"
+        "poor quality fabric",
+        "quality fabric torn",
+        "fabric torn apart",
+        "torn apart trip",
+        "build quality bad"
       ]
     },
     "aspect_sentiment": {
       "wheels": 97.2,
       "handle": 65.3,
-      "zipper": 58.0,
-      "material": 60.6,
-      "size": 83.0,
+      "zipper": 59.5,
+      "material": 62.5,
+      "size": 81.7,
       "weight": 89.2
     },
     "trust_signals": {
-      "verified_pct": 93.2,
-      "rating_skew": 71.2,
-      "repetition_score": 88.9,
+      "verified_pct": 93.7,
+      "rating_skew": 70.6,
+      "repetition_score": 48.4,
       "flags": [
         "Unusual rating distribution (many 5s and 1s)",
         "Repeated review text detected"
@@ -926,7 +1343,7 @@
     },
     "value_for_money": {
       "price_band": "budget",
-      "value_index": 64.6
+      "value_index": 65.3
     },
     "products": [
       {
@@ -934,22 +1351,46 @@
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.2",
-        "review_count": 36,
+        "review_count": 9,
         "price": "1439.0",
         "mrp": "7990.0",
         "discount_pct": "82",
-        "url": "https://www.amazon.in/dp/B0FC6QHJD7"
+        "url": "https://www.amazon.in/dp/B0FC6QHJD7",
+        "review_synthesis": {
+          "sentiment": 55.3,
+          "top_praise": [
+            "quality",
+            "durable",
+            "stylish"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 44,
+          "one_star_pct": 11
+        }
       },
       {
         "asin": "B0C1K4F8NN",
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.3",
-        "review_count": 80,
+        "review_count": 10,
         "price": "2609.0",
         "mrp": "11240.0",
         "discount_pct": "77",
-        "url": "https://www.amazon.in/dp/B0C1K4F8NN"
+        "url": "https://www.amazon.in/dp/B0C1K4F8NN",
+        "review_synthesis": {
+          "sentiment": 57.8,
+          "top_praise": [
+            "good",
+            "quality",
+            "quality good"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 30,
+          "one_star_pct": 40
+        }
       },
       {
         "asin": "B0DG29HXKS",
@@ -978,77 +1419,158 @@
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.2",
-        "review_count": 40,
+        "review_count": 10,
         "price": "2099.0",
         "mrp": "12920.0",
         "discount_pct": "84",
-        "url": "https://www.amazon.in/dp/B0D4S1FHLD"
+        "url": "https://www.amazon.in/dp/B0D4S1FHLD",
+        "review_synthesis": {
+          "sentiment": 68.4,
+          "top_praise": [
+            "good",
+            "really good"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 50,
+          "one_star_pct": 30
+        }
       },
       {
         "asin": "B0FMF3SLPK",
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.2",
-        "review_count": 40,
+        "review_count": 10,
         "price": "1499.0",
         "mrp": "6250.0",
         "discount_pct": "76",
-        "url": "https://www.amazon.in/dp/B0FMF3SLPK"
+        "url": "https://www.amazon.in/dp/B0FMF3SLPK",
+        "review_synthesis": {
+          "sentiment": 63.2,
+          "top_praise": [
+            "good",
+            "good product"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B0C1K6D51D",
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 10,
         "price": "2609.0",
         "mrp": "11240.0",
         "discount_pct": "77",
-        "url": "https://www.amazon.in/dp/B0C1K6D51D"
+        "url": "https://www.amazon.in/dp/B0C1K6D51D",
+        "review_synthesis": {
+          "sentiment": 57.8,
+          "top_praise": [
+            "good",
+            "quality",
+            "quality good"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 30,
+          "one_star_pct": 40
+        }
       },
       {
         "asin": "B0FC6L8H6G",
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.2",
-        "review_count": 36,
+        "review_count": 9,
         "price": "3149.0",
         "mrp": "18880.0",
         "discount_pct": "83",
-        "url": "https://www.amazon.in/dp/B0FC6L8H6G"
+        "url": "https://www.amazon.in/dp/B0FC6L8H6G",
+        "review_synthesis": {
+          "sentiment": 55.3,
+          "top_praise": [
+            "quality",
+            "durable",
+            "stylish"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 44,
+          "one_star_pct": 11
+        }
       },
       {
         "asin": "B0FC6RZNDC",
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.2",
-        "review_count": 36,
+        "review_count": 9,
         "price": "1439.0",
         "mrp": "7990.0",
         "discount_pct": "82",
-        "url": "https://www.amazon.in/dp/B0FC6RZNDC"
+        "url": "https://www.amazon.in/dp/B0FC6RZNDC",
+        "review_synthesis": {
+          "sentiment": 55.3,
+          "top_praise": [
+            "quality",
+            "durable",
+            "stylish"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 44,
+          "one_star_pct": 11
+        }
       },
       {
         "asin": "B0CWSB5B17",
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 10,
         "price": "469.0",
         "mrp": "2080.0",
         "discount_pct": "77",
-        "url": "https://www.amazon.in/dp/B0CWSB5B17"
+        "url": "https://www.amazon.in/dp/B0CWSB5B17",
+        "review_synthesis": {
+          "sentiment": 86.2,
+          "top_praise": [
+            "good",
+            "good product",
+            "quality"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 70,
+          "one_star_pct": 0
+        }
       },
       {
         "asin": "B0FMF7NN53",
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.2",
-        "review_count": 80,
+        "review_count": 10,
         "price": "1949.0",
         "mrp": "8125.0",
         "discount_pct": "76",
-        "url": "https://www.amazon.in/dp/B0FMF7NN53"
+        "url": "https://www.amazon.in/dp/B0FMF7NN53",
+        "review_synthesis": {
+          "sentiment": 63.2,
+          "top_praise": [
+            "good",
+            "good product"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B0FPXMK92R",
@@ -1062,51 +1584,55 @@
         "url": "https://www.amazon.in/dp/B0FPXMK92R"
       },
       {
-        "asin": "B0C1K4F8NN",
-        "brand": "Aristocrat",
-        "title": "Aristocrat",
-        "rating": "4.3",
-        "review_count": 80,
-        "price": "2609.0",
-        "mrp": "11240.0",
-        "discount_pct": "77",
-        "url": "https://www.amazon.in/dp/B0C1K4F8NN"
-      },
-      {
         "asin": "B0FMF3V9TC",
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.2",
-        "review_count": 40,
+        "review_count": 10,
         "price": "1549.0",
         "mrp": "6250.0",
         "discount_pct": "75",
-        "url": "https://www.amazon.in/dp/B0FMF3V9TC"
+        "url": "https://www.amazon.in/dp/B0FMF3V9TC",
+        "review_synthesis": {
+          "sentiment": 63.2,
+          "top_praise": [
+            "good",
+            "good product"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B0D6YYTKM2",
         "brand": "Aristocrat",
         "title": "Aristocrat",
         "rating": "4.2",
-        "review_count": 40,
+        "review_count": 10,
         "price": "1889.0",
         "mrp": "9170.0",
         "discount_pct": "79",
-        "url": "https://www.amazon.in/dp/B0D6YYTKM2"
+        "url": "https://www.amazon.in/dp/B0D6YYTKM2",
+        "review_synthesis": {
+          "sentiment": 85.4,
+          "top_praise": [
+            "good",
+            "good product"
+          ],
+          "top_complaints": [],
+          "review_count": 10,
+          "five_star_pct": 60,
+          "one_star_pct": 0
+        }
       }
-    ],
-    "agent_insights": [
-      "Skybags Dominates Budget Value but Faces Defect Risks. Despite having the lowest average price besides Aristocrat (₹2,476), Skybags claims the highest sentiment score (70.8) and best value index (67.1), punching well above its weight. However, top negatives like \"defective\" and \"broken\" suggest inconsistent quality control.",
-      "Nasher Miles Employs Aggressive Fake Pricing. Nasher Miles has the highest average discount at 80.5% but maintains a mid-range average selling price (₹3,616). This indicates heavily inflated MRPs to create a false sense of steep discounting, though it still manages a strong sentiment score (67.7).",
-      "VIP's Premium Positioning Doesn't Translate to Premium Perception. As the most expensive brand (₹4,412), VIP yields the lowest value-for-money index (27.5). Furthermore, its top negative themes explicitly contradict its premium price point, indicating a severe misalignment in customer expectations.",
-      "Safari Suffers a Disconnect Between Rating and Sentiment. Safari maintains an acceptable 4.1 average rating, but its actual sentiment score plunges to an abysmal 57.0 (the lowest of all brands). This reveals that while customers may casually leave 4-star ratings, their written reviews expose significant structural dissatisfaction.",
-      "Aristocrat Competes on Price Without Sacrificing Goodwill. Aristocrat is the cheapest brand overall (₹2,021) yet maintains an identical 4.2 rating as its premium competitors and a respectable sentiment score (64.6). Its value index directly challenges mid-range brands, making it a formidable disruptor in the budget tier."
     ]
   },
   "Nasher Miles": {
     "brand": "Nasher Miles",
     "product_count": 15,
-    "review_count": 544,
+    "review_count": 136,
     "avg_price": 3616.3,
     "avg_mrp": 18527.7,
     "avg_discount_pct": 80.5,
@@ -1118,14 +1644,14 @@
         "quality",
         "nice",
         "sturdy",
-        "smooth"
+        "good product"
       ],
       "top_negatives": [
+        "belt buckle broken",
+        "size bag missing",
+        "bag missing package",
         "broken",
-        "broke",
-        "cheap",
-        "bad",
-        "worst"
+        "buckle broken"
       ]
     },
     "aspect_sentiment": {
@@ -1139,7 +1665,7 @@
     "trust_signals": {
       "verified_pct": 95.6,
       "rating_skew": 69.9,
-      "repetition_score": 88.6,
+      "repetition_score": 54.4,
       "flags": [
         "Repeated review text detected"
       ]
@@ -1154,22 +1680,46 @@
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.3",
-        "review_count": 36,
+        "review_count": 9,
         "price": "3449.0",
         "mrp": "17995.0",
         "discount_pct": "81",
-        "url": "https://www.amazon.in/dp/B09G6ZFJPX"
+        "url": "https://www.amazon.in/dp/B09G6ZFJPX",
+        "review_synthesis": {
+          "sentiment": 77.9,
+          "top_praise": [
+            "good",
+            "quality",
+            "sturdy"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 67,
+          "one_star_pct": 11
+        }
       },
       {
         "asin": "B0D765JZRP",
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.1",
-        "review_count": 36,
+        "review_count": 9,
         "price": "2549.0",
         "mrp": "12995.0",
         "discount_pct": "80",
-        "url": "https://www.amazon.in/dp/B0D765JZRP"
+        "url": "https://www.amazon.in/dp/B0D765JZRP",
+        "review_synthesis": {
+          "sentiment": 57.7,
+          "top_praise": [
+            "great",
+            "smooth",
+            "wheels smooth"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 22,
+          "one_star_pct": 44
+        }
       },
       {
         "asin": "B0CGTXDN9N",
@@ -1198,110 +1748,237 @@
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.2",
-        "review_count": 36,
+        "review_count": 9,
         "price": "3489.0",
         "mrp": "17995.0",
         "discount_pct": "81",
-        "url": "https://www.amazon.in/dp/B0CGTXL5V1"
+        "url": "https://www.amazon.in/dp/B0CGTXL5V1",
+        "review_synthesis": {
+          "sentiment": 64.5,
+          "top_praise": [
+            "good",
+            "nice"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 33,
+          "one_star_pct": 22
+        }
       },
       {
         "asin": "B09G71JXVS",
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.3",
-        "review_count": 36,
+        "review_count": 9,
         "price": "2949.0",
         "mrp": "15995.0",
         "discount_pct": "82",
-        "url": "https://www.amazon.in/dp/B09G71JXVS"
+        "url": "https://www.amazon.in/dp/B09G71JXVS",
+        "review_synthesis": {
+          "sentiment": 77.9,
+          "top_praise": [
+            "good",
+            "quality",
+            "sturdy"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 67,
+          "one_star_pct": 11
+        }
       },
       {
         "asin": "B09G715R22",
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.3",
-        "review_count": 36,
+        "review_count": 9,
         "price": "2998.0",
         "mrp": "15995.0",
         "discount_pct": "81",
-        "url": "https://www.amazon.in/dp/B09G715R22"
+        "url": "https://www.amazon.in/dp/B09G715R22",
+        "review_synthesis": {
+          "sentiment": 77.9,
+          "top_praise": [
+            "good",
+            "quality",
+            "sturdy"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 67,
+          "one_star_pct": 11
+        }
       },
       {
         "asin": "B0GCZGLLK5",
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.3",
-        "review_count": 36,
+        "review_count": 9,
         "price": "3089.0",
         "mrp": "15995.0",
         "discount_pct": "81",
-        "url": "https://www.amazon.in/dp/B0GCZGLLK5"
+        "url": "https://www.amazon.in/dp/B0GCZGLLK5",
+        "review_synthesis": {
+          "sentiment": 77.9,
+          "top_praise": [
+            "good",
+            "quality",
+            "sturdy"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 67,
+          "one_star_pct": 11
+        }
       },
       {
         "asin": "B09G72J5Y6",
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.3",
-        "review_count": 36,
+        "review_count": 9,
         "price": "2699.0",
         "mrp": "13995.0",
         "discount_pct": "81",
-        "url": "https://www.amazon.in/dp/B09G72J5Y6"
+        "url": "https://www.amazon.in/dp/B09G72J5Y6",
+        "review_synthesis": {
+          "sentiment": 77.9,
+          "top_praise": [
+            "good",
+            "quality",
+            "sturdy"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 67,
+          "one_star_pct": 11
+        }
       },
       {
         "asin": "B0D47KQ81Z",
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "3.7",
-        "review_count": 40,
+        "review_count": 10,
         "price": "2749.0",
         "mrp": "16995.0",
         "discount_pct": "84",
-        "url": "https://www.amazon.in/dp/B0D47KQ81Z"
+        "url": "https://www.amazon.in/dp/B0D47KQ81Z",
+        "review_synthesis": {
+          "sentiment": 71.0,
+          "top_praise": [
+            "quality",
+            "good",
+            "quality good"
+          ],
+          "top_complaints": [
+            "poor quality",
+            "poor",
+            "broken"
+          ],
+          "review_count": 10,
+          "five_star_pct": 40,
+          "one_star_pct": 20
+        }
       },
       {
         "asin": "B0CGTX3Z86",
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.2",
-        "review_count": 36,
+        "review_count": 9,
         "price": "2699.0",
         "mrp": "13995.0",
         "discount_pct": "81",
-        "url": "https://www.amazon.in/dp/B0CGTX3Z86"
+        "url": "https://www.amazon.in/dp/B0CGTX3Z86",
+        "review_synthesis": {
+          "sentiment": 64.5,
+          "top_praise": [
+            "good",
+            "nice"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 33,
+          "one_star_pct": 22
+        }
       },
       {
         "asin": "B0D6BS5BGY",
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.3",
-        "review_count": 40,
+        "review_count": 10,
         "price": "3699.0",
         "mrp": "16995.0",
         "discount_pct": "78",
-        "url": "https://www.amazon.in/dp/B0D6BS5BGY"
+        "url": "https://www.amazon.in/dp/B0D6BS5BGY",
+        "review_synthesis": {
+          "sentiment": 61.8,
+          "top_praise": [
+            "good",
+            "good product",
+            "sturdy"
+          ],
+          "top_complaints": [
+            "cheap"
+          ],
+          "review_count": 10,
+          "five_star_pct": 40,
+          "one_star_pct": 30
+        }
       },
       {
         "asin": "B094DM58FP",
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.0",
-        "review_count": 36,
+        "review_count": 9,
         "price": "4999.0",
         "mrp": "18995.0",
         "discount_pct": "74",
-        "url": "https://www.amazon.in/dp/B094DM58FP"
+        "url": "https://www.amazon.in/dp/B094DM58FP",
+        "review_synthesis": {
+          "sentiment": 53.4,
+          "top_praise": [
+            "quality",
+            "nice",
+            "good"
+          ],
+          "top_complaints": [
+            "zip broke",
+            "cheap quality",
+            "broke"
+          ],
+          "review_count": 9,
+          "five_star_pct": 33,
+          "one_star_pct": 67
+        }
       },
       {
         "asin": "B0CGTW6W81",
         "brand": "Nasher Miles",
         "title": "Nasher Miles",
         "rating": "4.2",
-        "review_count": 36,
+        "review_count": 9,
         "price": "2989.0",
         "mrp": "15995.0",
         "discount_pct": "81",
-        "url": "https://www.amazon.in/dp/B0CGTW6W81"
+        "url": "https://www.amazon.in/dp/B0CGTW6W81",
+        "review_synthesis": {
+          "sentiment": 64.5,
+          "top_praise": [
+            "good",
+            "nice"
+          ],
+          "top_complaints": [],
+          "review_count": 9,
+          "five_star_pct": 33,
+          "one_star_pct": 22
+        }
       },
       {
         "asin": "B0CGTVR451",
@@ -1314,13 +1991,6 @@
         "discount_pct": "81",
         "url": "https://www.amazon.in/dp/B0CGTVR451"
       }
-    ],
-    "agent_insights": [
-      "Skybags Dominates Budget Value but Faces Defect Risks. Despite having the lowest average price besides Aristocrat (₹2,476), Skybags claims the highest sentiment score (70.8) and best value index (67.1), punching well above its weight. However, top negatives like \"defective\" and \"broken\" suggest inconsistent quality control.",
-      "Nasher Miles Employs Aggressive Fake Pricing. Nasher Miles has the highest average discount at 80.5% but maintains a mid-range average selling price (₹3,616). This indicates heavily inflated MRPs to create a false sense of steep discounting, though it still manages a strong sentiment score (67.7).",
-      "VIP's Premium Positioning Doesn't Translate to Premium Perception. As the most expensive brand (₹4,412), VIP yields the lowest value-for-money index (27.5). Furthermore, its top negative themes explicitly contradict its premium price point, indicating a severe misalignment in customer expectations.",
-      "Safari Suffers a Disconnect Between Rating and Sentiment. Safari maintains an acceptable 4.1 average rating, but its actual sentiment score plunges to an abysmal 57.0 (the lowest of all brands). This reveals that while customers may casually leave 4-star ratings, their written reviews expose significant structural dissatisfaction.",
-      "Aristocrat Competes on Price Without Sacrificing Goodwill. Aristocrat is the cheapest brand overall (₹2,021) yet maintains an identical 4.2 rating as its premium competitors and a respectable sentiment score (64.6). Its value index directly challenges mid-range brands, making it a formidable disruptor in the budget tier."
     ]
   }
 }
