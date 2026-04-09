@@ -340,6 +340,7 @@ export default function ProductDrilldown({ brands }) {
                   textfont: { size: 10, color: '#424754', family: 'Inter', weight: 600 }
                 }]}
                 layout={{
+                  autosize: true,
                   height: 200,
                   margin: { t: 0, b: 20, l: 70, r: 40 },
                   xaxis: { range: [0, 100], gridcolor: '#f1f3ff', zerolinecolor: '#dce2f7', tickfont: { size: 10, color: '#727785' } },
@@ -350,7 +351,8 @@ export default function ProductDrilldown({ brands }) {
                   font: { family: 'Inter, sans-serif' },
                 }}
                 config={{ displayModeBar: false, responsive: true }}
-                style={{ width: '100%' }}
+                style={{ width: '100%', height: '100%' }}
+                useResizeHandler={true}
               />
             </div>
           </div>

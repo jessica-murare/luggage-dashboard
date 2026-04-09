@@ -119,6 +119,7 @@ export default function Overview({ brands }) {
                 textfont: { size: 10, color: '#424754', family: 'Inter' }
               }]}
               layout={{
+                autosize: true,
                 height: 250,
                 margin: { t: 20, b: 30, l: 30, r: 10 },
                 yaxis: { range: [0, 100], gridcolor: '#f1f3ff', zerolinecolor: '#dce2f7', tickfont: { size: 10, color: '#727785' } },
@@ -129,7 +130,8 @@ export default function Overview({ brands }) {
                 font: { family: 'Inter, sans-serif' },
               }}
               config={{ displayModeBar: false, responsive: true }}
-              style={{ width: '100%' }}
+              style={{ width: '100%', height: '100%' }}
+              useResizeHandler={true}
             />
           </div>
         </div>
@@ -155,6 +157,7 @@ export default function Overview({ brands }) {
                 textfont: { size: 11, color: '#141b2b', family: 'Inter', weight: 500 }
               }]}
               layout={{
+                autosize: true,
                 height: 250,
                 margin: { t: 20, b: 40, l: 40, r: 20 },
                 xaxis: { title: 'Avg Selling Price (₹)', titlefont: { size: 10, color: '#727785' }, gridcolor: '#f1f3ff', tickfont: { size: 10, color: '#727785' } },
@@ -165,7 +168,8 @@ export default function Overview({ brands }) {
                 font: { family: 'Inter, sans-serif' },
               }}
               config={{ displayModeBar: false, responsive: true }}
-              style={{ width: '100%' }}
+              style={{ width: '100%', height: '100%' }}
+              useResizeHandler={true}
             />
           </div>
         </div>

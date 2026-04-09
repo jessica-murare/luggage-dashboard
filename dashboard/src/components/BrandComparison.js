@@ -117,6 +117,7 @@ export default function BrandComparison({ brands }) {
                 textfont: { size: 12, color: '#424754', family: 'Inter' }
               }]}
               layout={{
+                autosize: true,
                 height: 250,
                 margin: { t: 10, b: 30, l: 30, r: 10 },
                 yaxis: { range: [0, 100], gridcolor: '#f1f3ff', zerolinecolor: '#dce2f7', tickfont: { size: 10, color: '#727785' } },
@@ -127,7 +128,8 @@ export default function BrandComparison({ brands }) {
                 font: { family: 'Inter, sans-serif' },
               }}
               config={{ displayModeBar: false, responsive: true }}
-              style={{ width: '100%' }}
+              style={{ width: '100%', height: '100%' }}
+              useResizeHandler={true}
             />
           </div>
         </div>
@@ -149,6 +151,7 @@ export default function BrandComparison({ brands }) {
                 textfont: { size: 12, color: '#424754', family: 'Inter' }
               }]}
               layout={{
+                autosize: true,
                 height: 250,
                 margin: { t: 10, b: 30, l: 30, r: 10 },
                 yaxis: { gridcolor: '#f1f3ff', zerolinecolor: '#dce2f7', tickfont: { size: 10, color: '#727785' } },
@@ -159,7 +162,8 @@ export default function BrandComparison({ brands }) {
                 font: { family: 'Inter, sans-serif' },
               }}
               config={{ displayModeBar: false, responsive: true }}
-              style={{ width: '100%' }}
+              style={{ width: '100%', height: '100%' }}
+              useResizeHandler={true}
             />
           </div>
         </div>
@@ -176,6 +180,7 @@ export default function BrandComparison({ brands }) {
           <Plot
             data={radarData}
             layout={{
+              autosize: true,
               height: 400,
               polar: {
                 radialaxis: { visible: true, range: [0, 100], gridcolor: '#e1e8fd', tickfont: { size: 10, color: '#727785' } },
@@ -188,7 +193,8 @@ export default function BrandComparison({ brands }) {
               margin: { t: 20, b: 60, l: 40, r: 40 },
             }}
             config={{ displayModeBar: false, responsive: true }}
-            style={{ width: '100%', maxWidth: '700px' }}
+            style={{ width: '100%', maxWidth: '700px', height: '100%' }}
+            useResizeHandler={true}
           />
         </div>
       </section>
